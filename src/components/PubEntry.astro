@@ -1,0 +1,121 @@
+---
+import { displayName, nameKey, TYPE_LABEL } from '../lib/format';
+
+interface Props {
+  pub: any;
+  /** Loose keys of lab members, so their names render in bold. */
+  labKeys: Set<string>;
+  compact?: boolean;
+  /** True on pages that already group entries under a year heading. */
+  hideYear?: boolean;
+}
+const { pub, labKeys, compact = false, hideYear = false } = Astro.props;
+const d = pub.data;
+const links = Object.entries(d.links ?? {}).filter(([, v]) => !!v) as [string, string][];
+---
+
+<article class:list={['pub', { compact }]}>
+  <div class="meta">
+    {!hideYear && <span class="yr num">{d.year}</span>}
+    <span class="tag">{TYPE_LABEL[d.type] ?? d.type}</span>
+  </div>
+
+  <div class="body">
+    <h3 class="title">{d.title}</h3>
+
+    {/* Rendered on one line on purpose: a newline between these spans becomes a
+        literal space, which puts a gap before every comma. */}
+    <p class="authors">{d.authors.map((a: string, i: number) => (<><span class:list={{ lab: labKeys.has(nameKey(a)) }}>{displayName(a)}</span>{i < d.authors.length - 1 ? <span class="sep">,&#32;</span> : null}</>))}</p>
+
+    <p class="venue">
+      {d.venueShort ? <span class="short">{d.venueShort}</span> : null}
+      <span class="full">{d.venue}</span>
+      {d.award ? <span class="award">{d.award}</span> : null}
+    </p>
+
+    {links.length > 0 && (
+      <p class="links">
+        {links.map(([k, href]) => (
+          <a class="lk" href={href} rel="noopener">{k.toUpperCase()}</a>
+        ))}
+      </p>
+    )}
+  </div>
+</article>
+
+<style>
+  .pub {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: var(--s-2) 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  @media (min-width: 780px) {
+    .pub { grid-template-columns: 108px minmax(0, 1fr); gap: var(--s-3); align-items: start; }
+  }
+
+  .meta { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; padding-top: 3px; }
+  .yr {
+    font-family: var(--f-mono);
+    font-size: var(--t-small);
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .meta .tag { font-size: 9.5px; }
+
+  .body { display: flex; flex-direction: column; gap: 5px; }
+
+  .title {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.32;
+    letter-spacing: -0.01em;
+    max-width: 66ch;
+    text-wrap: pretty;
+  }
+
+  .authors { font-size: var(--t-small); color: var(--ink-2); line-height: 1.5; }
+  .authors .lab { color: var(--ink); font-weight: 600; }
+  .authors .sep { color: var(--ink-3); }
+
+  .venue {
+    font-family: var(--f-mono);
+    font-size: var(--t-meta);
+    color: var(--ink-3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: baseline;
+  }
+  .venue .short {
+    color: var(--blue-ink);
+    font-weight: 600;
+    background: var(--blue-soft);
+    padding: 1px 6px;
+    border-radius: 2px;
+  }
+  .venue .full { font-family: var(--f-body); font-size: var(--t-small); font-style: italic; }
+  .venue .award {
+    background: var(--yellow);
+    color: #0E1626;
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 2px;
+  }
+
+  .links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+  .lk {
+    font-family: var(--f-mono);
+    font-size: 10px;
+    letter-spacing: .09em;
+    text-decoration: none;
+    color: var(--ink-2);
+    border: 1px solid var(--rule-strong);
+    border-radius: 2px;
+    padding: 2px 7px;
+  }
+  .lk:hover { border-color: var(--blue); color: var(--blue-ink); background: var(--blue-soft); }
+
+  .compact .title { font-size: 16px; }
+</style>

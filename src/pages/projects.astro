@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { getPublications, getThemes } from '../lib/lab';
+import { displayName } from '../lib/format';
+
+const projects = (await getCollection('projects')).sort(
+  (a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title),
+);
+const active = projects.filter((p) => p.data.status === 'active');
+const completed = projects.filter((p) => p.data.status === 'completed');
+
+const themes = await getThemes();
+const themeTitle = (id: string) => themes.find((t) => t.id === id)?.data.title ?? id;
+
+// Papers that introduce a reusable artefact. Detected from the title, so the
+// list stays correct as publications are added — nothing to maintain by hand.
+const RESOURCE = /\b(dataset|benchmark|benchmarking|corpus|testbed|collection)\b/i;
+const resources = (await getPublications()).filter((p) => RESOURCE.test(p.data.title));
+---
+
+<BaseLayout
+  title="Projects & resources"
+  description="Funded projects, released software, datasets and benchmarks from LS3 at the University of Toronto."
+>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Projects &amp; resources</p>
+      <h1>What we have built</h1>
+      <p class="intro">
+        Funded projects, released software, and the datasets and benchmarks our papers introduce.
+        Everything here is meant to be used by other people — if something is missing a link,
+        tell us and we will find it.
+      </p>
+    </header>
+
+    {projects.length === 0 ? (
+      <div class="callout">
+        <p class="k">Nothing listed yet</p>
+        <p>
+          The projects section is set up but empty. To add one, copy
+          <code>templates/project.md</code> into <code>src/content/projects/</code> and open a pull
+          request. Funded grants, released tools and long-running collaborations all belong here.
+        </p>
+      </div>
+    ) : (
+      <>
+        {active.length > 0 && (
+          <section class="grp">
+            <div class="section-rule"><h2>Active</h2><span class="more num">{active.length}</span></div>
+            <div class="grid grid-2">
+              {active.map((p) => (
+                <article class="proj">
+                  <h3>{p.data.site ?? p.data.repo
+                    ? <a href={p.data.site ?? p.data.repo} rel="noopener">{p.data.title}</a>
+                    : p.data.title}</h3>
+                  <p class="blurb">{p.data.blurb}</p>
+                  <p class="meta">
+                    {p.data.funder && <span class="tag">{p.data.funder}</span>}
+                    {p.data.years && <span class="tag num">{p.data.years}</span>}
+                    {p.data.themes.map((t) => <a class="tag" href={`/research/${t}/`}>{themeTitle(t)}</a>)}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {completed.length > 0 && (
+          <section class="grp">
+            <div class="section-rule"><h2>Completed</h2><span class="more num">{completed.length}</span></div>
+            <div class="grid grid-2">
+              {completed.map((p) => (
+                <article class="proj done">
+                  <h3>{p.data.title}</h3>
+                  <p class="blurb">{p.data.blurb}</p>
+                  <p class="meta">
+                    {p.data.funder && <span class="tag">{p.data.funder}</span>}
+                    {p.data.years && <span class="tag num">{p.data.years}</span>}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+      </>
+    )}
+
+    {resources.length > 0 && (
+      <section class="grp">
+        <div class="section-rule">
+          <h2>Datasets &amp; benchmarks</h2>
+          <span class="more num">{resources.length}</span>
+        </div>
+        <p class="note">
+          Resources introduced by our papers. This list is generated from the publication titles,
+          so it stays current on its own. Add a <code>data</code> or <code>code</code> link to a
+          publication entry and it appears here.
+        </p>
+        <ul class="res">
+          {resources.map((p) => (
+            <li>
+              <div class="rt">
+                <h3>{p.data.title}</h3>
+                <p class="au">
+                  {displayName(p.data.authors[0])}
+                  {p.data.authors.length > 1 ? ' et al.' : ''} · {p.data.venueShort ?? p.data.venue}
+                </p>
+              </div>
+              <p class="rl">
+                {p.data.links?.data && <a class="tag" href={p.data.links.data} rel="noopener">Data</a>}
+                {p.data.links?.code && <a class="tag" href={p.data.links.code} rel="noopener">Code</a>}
+                {!p.data.links?.data && !p.data.links?.code && <span class="tag pend">Link pending</span>}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .grp { margin-top: var(--s-4); }
+
+  .proj {
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--blue);
+    border-radius: 0 0 var(--radius) var(--radius);
+    padding: var(--s-2);
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .proj.done { border-top-color: var(--rule-strong); }
+  .proj h3 { font-size: var(--t-h3); }
+  .blurb { font-size: var(--t-small); color: var(--ink-2); flex: 1; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .note { font-size: var(--t-small); color: var(--ink-2); max-width: var(--measure); margin-bottom: var(--s-2); }
+
+  .res { display: flex; flex-direction: column; border-top: 1px solid var(--rule); }
+  .res li {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: var(--s-2) 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  @media (min-width: 760px) {
+    .res li { grid-template-columns: minmax(0, 1fr) 190px; gap: var(--s-3); align-items: center; }
+  }
+  .res h3 { font-size: 16.5px; font-weight: 600; max-width: 62ch; text-wrap: pretty; }
+  .au { font-family: var(--f-mono); font-size: var(--t-meta); color: var(--ink-3); margin-top: 3px; }
+  .rl { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-start; }
+  @media (min-width: 760px) { .rl { justify-content: flex-end; } }
+  .pend { background: var(--yellow-soft); color: var(--yellow-deep); }
+</style>

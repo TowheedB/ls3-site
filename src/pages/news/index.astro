@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { render } from 'astro:content';
+import { getNews } from '../../lib/lab';
+import { formatDate } from '../../lib/format';
+
+const news = await getNews();
+const items = await Promise.all(
+  news.map(async (n) => ({ entry: n, Content: (await render(n)).Content })),
+);
+
+const KIND: Record<string, string> = {
+  paper: 'Paper', award: 'Award', media: 'Media', talk: 'Talk', lab: 'Lab',
+};
+---
+
+<BaseLayout title="News" description="Announcements, media appearances, awards and talks from LS3 at the University of Toronto.">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">News</p>
+      <h1>News</h1>
+      <p class="intro">
+        Awards, talks, media appearances and lab announcements.
+        <a href="/news/rss.xml">Subscribe by RSS</a>.
+      </p>
+    </header>
+
+    {items.length === 0 ? (
+      <p class="empty">No news items yet.</p>
+    ) : (
+      <ul class="items">
+        {items.map(({ entry: n, Content }) => (
+          <li>
+            <div class="meta">
+              <time class="num" datetime={n.data.date.toISOString()}>{formatDate(n.data.date)}</time>
+              <span class="tag">{KIND[n.data.kind] ?? n.data.kind}</span>
+            </div>
+            <div class="body">
+              <h2>
+                {n.data.external
+                  ? <a href={n.data.external} rel="noopener">{n.data.title}</a>
+                  : n.data.title}
+              </h2>
+              <p class="sum">{n.data.summary}</p>
+              <div class="prose more"><Content /></div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .items { display: flex; flex-direction: column; border-top: 1px solid var(--rule); }
+  .items li {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: var(--s-3) 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  @media (min-width: 800px) {
+    .items li { grid-template-columns: 190px minmax(0, 1fr); gap: var(--s-3); align-items: start; }
+  }
+  .meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 9px; }
+  .meta time { font-family: var(--f-mono); font-size: var(--t-meta); color: var(--ink-3); }
+  .body { display: flex; flex-direction: column; gap: 7px; }
+  h2 { font-size: 20px; max-width: 52ch; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover { color: var(--blue-ink); text-decoration: underline; }
+  .sum { font-size: var(--t-small); color: var(--ink-2); max-width: 66ch; }
+  .more { font-size: var(--t-meta); color: var(--ink-3); }
+  .empty { color: var(--ink-3); }
+</style>

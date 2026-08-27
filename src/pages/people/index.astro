@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import Avatar from '../../components/Avatar.astro';
+import { getCollection, render } from 'astro:content';
+import { ROLE_LABEL, ROLE_ORDER } from '../../lib/format';
+import { photoFor } from '../../lib/lab';
+
+const all = await getCollection('people');
+const current = all.filter((p) => p.data.status === 'current');
+const alumniCount = all.length - current.length;
+
+const director = current.find((p) => p.data.role === 'director');
+const DirectorBody: any = director ? (await render(director)).Content : null;
+
+const groups = ROLE_ORDER
+  .filter((r) => r !== 'director')
+  .map((role) => ({
+    role,
+    label: ROLE_LABEL[role],
+    people: current
+      .filter((p) => p.data.role === role)
+      .sort((a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name)),
+  }))
+  .filter((g) => g.people.length > 0);
+
+const missingStudents = !current.some((p) => ['phd', 'msc', 'postdoc', 'undergrad'].includes(p.data.role));
+---
+
+<BaseLayout
+  title="People"
+  description="The people of LS3 at the University of Toronto's Faculty of Information — director, affiliated faculty, researchers and students."
+>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">People</p>
+      <h1>Who is in the lab</h1>
+      <p class="intro">
+        LS3 brings together researchers in information retrieval, machine learning and the social
+        study of information systems. <a href="/people/alumni/">{alumniCount} alumni</a> have
+        passed through the lab.
+      </p>
+    </header>
+
+    {director && (
+      <section class="director">
+        <Avatar name={director.data.name} photo={photoFor(director.id, director.data.photo)} size={148} />
+        <div class="dtxt">
+          <p class="eyebrow">Director</p>
+          <h2>{director.data.name}</h2>
+          <p class="dtitle">{director.data.title}</p>
+          <p class="daff">{director.data.affiliation}</p>
+          <div class="prose dbody"><DirectorBody /></div>
+          <p class="dlinks">
+            {director.data.email && <a href={`mailto:${director.data.email}`}>{director.data.email}</a>}
+            {director.data.links?.scholar && <a href={director.data.links.scholar} rel="noopener">Google Scholar</a>}
+            {director.data.links?.website && <a href={director.data.links.website} rel="noopener">Faculty profile</a>}
+          </p>
+        </div>
+      </section>
+    )}
+
+    {missingStudents && (
+      <div class="callout notice">
+        <p class="k">This section is being rebuilt</p>
+        <p>
+          LS3 moved from Toronto Metropolitan University to the University of Toronto's Faculty of
+          Information, and the current student and postdoc roster has not yet been republished.
+          Lab members: copy <code>templates/person.md</code> into <code>src/content/people/</code>
+          and open a pull request — instructions are in <code>CONTRIBUTING.md</code>.
+        </p>
+      </div>
+    )}
+
+    {groups.map((g) => (
+      <section class="group">
+        <div class="section-rule">
+          <h2>{g.label}</h2>
+          <span class="more num">{g.people.length}</span>
+        </div>
+        <div class="grid grid-2">
+          {g.people.map((p) => <PersonCard person={p} />)}
+        </div>
+      </section>
+    ))}
+
+    <section class="alum-cta">
+      <div>
+        <h2>Where our graduates go</h2>
+        <p>
+          Alumni of the lab hold faculty positions in Canada, Iran, Serbia and Brazil, and research
+          and engineering roles at Meta, Amazon, RBC, IBM, Sun Life, Deloitte and the Government of
+          Alberta.
+        </p>
+      </div>
+      <a class="btn btn-primary" href="/people/alumni/">See all {alumniCount} alumni</a>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .director {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s-3);
+    padding: var(--s-3);
+    border: 1px solid var(--rule);
+    border-top: 4px solid var(--yellow);
+    border-radius: 0 0 var(--radius) var(--radius);
+    background: var(--surface);
+  }
+  .dtxt { flex: 1 1 340px; display: flex; flex-direction: column; gap: 5px; }
+  .dtxt h2 { font-size: var(--t-h2); }
+  .dtitle { font-size: 16px; font-weight: 600; color: var(--ink); }
+  .daff { font-size: var(--t-small); color: var(--ink-2); }
+  .dbody { margin-top: var(--s-1); font-size: var(--t-small); }
+  .dlinks { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-1); }
+  .dlinks a { font-family: var(--f-mono); font-size: 11.5px; }
+
+  .notice { margin-top: var(--s-3); }
+
+  .group { margin-top: var(--s-5); }
+
+  .alum-cta {
+    margin-top: var(--s-5);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--s-3);
+    border-top: 2px solid var(--ink);
+    padding-top: var(--s-3);
+  }
+  .alum-cta > div { flex: 1 1 380px; display: flex; flex-direction: column; gap: 8px; }
+  .alum-cta h2 { font-size: var(--t-h3); }
+  .alum-cta p { font-size: var(--t-small); color: var(--ink-2); max-width: 60ch; }
+</style>

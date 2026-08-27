@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { ROLE_LABEL, ROLE_ORDER } from '../../lib/format';
+
+const all = await getCollection('people');
+const alumni = all.filter((p) => p.data.status === 'alumni');
+
+const groups = ROLE_ORDER
+  .map((role) => ({
+    role,
+    label: ROLE_LABEL[role],
+    people: alumni
+      .filter((p) => p.data.role === role)
+      .sort((a, b) => a.data.name.localeCompare(b.data.name)),
+  }))
+  .filter((g) => g.people.length > 0);
+
+const placed = alumni.filter((p) => p.data.nowAt).length;
+---
+
+<BaseLayout
+  title="Alumni"
+  description={`${alumni.length} researchers have passed through LS3 — postdocs, doctoral and master's students, and visiting researchers — and where they are now.`}
+>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span aria-hidden="true">/</span>
+      <a href="/people/">People</a> <span aria-hidden="true">/</span>
+      <span aria-current="page">Alumni</span>
+    </nav>
+
+    <header class="page-head">
+      <p class="eyebrow">Alumni</p>
+      <h1>{alumni.length} researchers have worked in this lab</h1>
+      <p class="intro">
+        Postdoctoral fellows, doctoral and master's students, and visiting researchers, with
+        current positions where we know them. If you are on this list and your entry is out of
+        date, send us a correction — we would like to keep it right.
+      </p>
+    </header>
+
+    {groups.map((g) => (
+      <section class="group">
+        <div class="section-rule">
+          <h2>{g.label}</h2>
+          <span class="more num">{g.people.length}</span>
+        </div>
+        <ul class="rows">
+          {g.people.map((p) => (
+            <li>
+              <span class="nm">{p.data.name}</span>
+              {p.data.nowAt
+                ? <span class="now">{p.data.nowAt}</span>
+                : <span class="now unk">—</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p class="note num">
+      {placed} of {alumni.length} entries record a current position. Migrated from the previous
+      LS3 site; some may be out of date.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .crumbs {
+    font-family: var(--f-mono);
+    font-size: var(--t-meta);
+    color: var(--ink-3);
+    padding-top: var(--s-3);
+    display: flex; flex-wrap: wrap; gap: 7px;
+  }
+  .crumbs a { color: var(--ink-3); text-decoration: none; }
+  .crumbs a:hover { color: var(--blue-ink); text-decoration: underline; }
+  .page-head { padding-top: var(--s-3); }
+
+  .group { margin-top: var(--s-4); }
+  .rows { display: flex; flex-direction: column; }
+  .rows li {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+    padding: 11px 4px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .rows li:hover { background: var(--yellow-soft); }
+  @media (min-width: 720px) {
+    .rows li { grid-template-columns: 260px minmax(0, 1fr); gap: var(--s-3); align-items: baseline; }
+  }
+  .nm { font-weight: 600; font-size: var(--t-small); }
+  .now { font-size: var(--t-small); color: var(--ink-2); }
+  .now.unk { color: var(--ink-3); font-family: var(--f-mono); }
+
+  .note {
+    margin-top: var(--s-4);
+    font-family: var(--f-mono);
+    font-size: var(--t-meta);
+    color: var(--ink-3);
+    max-width: var(--measure);
+  }
+</style>
