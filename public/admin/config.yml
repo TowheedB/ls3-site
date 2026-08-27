@@ -9,15 +9,20 @@
 #  repository can log in here, and nobody else can. To add or remove an editor,
 #  change their repository access; there is no separate user list to maintain.
 #
-#  BEFORE THIS WORKS: set `repo` below to the real repository, and `base_url`
-#  to your deployed OAuth worker. See ADMIN.md.
+#  SIGNING IN: this is set up for "Sign in with Token" — no server, no OAuth
+#  app, nothing to deploy. Each editor creates their own GitHub personal
+#  access token and pastes it into the login screen once. See ADMIN.md.
+#
+#  To switch to one-click "Sign in with GitHub" later (nicer when there are
+#  several editors), deploy the Cloudflare Worker described in ADMIN.md and
+#  uncomment the `base_url` line below.
 # ============================================================================
 
 backend:
   name: github
-  repo: OWNER/REPO            # <-- change me, e.g. ls3lab/ls3-site
+  repo: TowheedB/ls3-site
   branch: main
-  base_url: https://ls3-cms-auth.YOUR-SUBDOMAIN.workers.dev   # <-- change me
+  # base_url: https://ls3-cms-auth.YOUR-SUBDOMAIN.workers.dev
   commit_messages:
     create: 'Add {{collection}} "{{slug}}" (via site editor)'
     update: 'Update {{collection}} "{{slug}}" (via site editor)'
