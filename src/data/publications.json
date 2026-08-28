@@ -49,6 +49,32 @@
       "citedBy": null
     },
     {
+      "id": "2027-masud-immigrant-trajectories-0",
+      "title": "velemoon kon",
+      "authors": [
+        "Masud, Zarif",
+        "Paul, Abhijit",
+        "Khan, Naimul",
+        "Ahmed, Syed Ishtiaque",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "21st International Conference on Web and Social Media",
+      "venueShort": "ICWSM 2027",
+      "year": 2027,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": true,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
+    },
+    {
       "id": "2026-mcconvey-ai-manipulated-evidence",
       "title": "A Benchmark & Dataset for Detecting AI-Manipulated Visual Evidence in the Court System",
       "authors": [
