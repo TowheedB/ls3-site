@@ -17,7 +17,14 @@
       "themes": [
         "information-people-society"
       ],
-      "featured": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": true,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-mcconvey-ai-manipulated-evidence",
@@ -45,7 +52,14 @@
         "information-people-society",
         "responsible-information-access"
       ],
-      "featured": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": true,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-le-gender-fair-query-reformulations",
@@ -62,7 +76,15 @@
       "type": "conference",
       "themes": [
         "responsible-information-access"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-seyedsalehi-gender-bias-regularization",
@@ -80,7 +102,14 @@
         "responsible-information-access",
         "neural-ranking"
       ],
-      "featured": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": true,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-bigdeli-llm-query-reformulation-repro",
@@ -100,7 +129,15 @@
       "type": "conference",
       "themes": [
         "neural-ranking"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-mahdavimoghaddam-information-workers",
@@ -118,7 +155,15 @@
       "type": "journal",
       "themes": [
         "information-people-society"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-khosrojerdi-adversarial-edge-perturbation",
@@ -134,7 +179,15 @@
       "type": "conference",
       "themes": [
         "robustness-and-adversarial-ir"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-hillis-ai-ethics-education",
@@ -161,7 +214,15 @@
       "themes": [
         "responsible-information-access",
         "information-people-society"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-arabzadeh-llm-research-integrity",
@@ -183,7 +244,14 @@
       "themes": [
         "ai-and-scientific-integrity"
       ],
-      "featured": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": true,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-zhang-dao-labor",
@@ -199,7 +267,15 @@
       "type": "conference",
       "themes": [
         "information-people-society"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-saliminabi-diffusion-team-formation",
@@ -218,7 +294,15 @@
       "type": "journal",
       "themes": [
         "neural-ranking"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-bigdeli-empra",
@@ -236,7 +320,14 @@
       "themes": [
         "robustness-and-adversarial-ir"
       ],
-      "featured": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": true,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-le-eviqe",
@@ -254,7 +345,15 @@
       "type": "conference",
       "themes": [
         "neural-ranking"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-hosseini-failing-forward",
@@ -274,7 +373,15 @@
       "themes": [
         "neural-ranking",
         "robustness-and-adversarial-ir"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-arabzadeh-doxa-to-logos",
@@ -295,7 +402,15 @@
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-ebrahimi-denoising-diffusion-ltr",
@@ -316,7 +431,14 @@
       "themes": [
         "neural-ranking"
       ],
-      "featured": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": true,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-hosseini-graph-poisoning",
@@ -333,7 +455,15 @@
       "type": "conference",
       "themes": [
         "robustness-and-adversarial-ir"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-masud-immigration-narratives",
@@ -351,7 +481,15 @@
       "themes": [
         "information-people-society",
         "responsible-information-access"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-amirshahi-judging-a-review",
@@ -369,7 +507,15 @@
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-saliminabi-learndcg",
@@ -385,7 +531,15 @@
       "type": "conference",
       "themes": [
         "neural-ranking"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-bigdeli-led-to-mislead",
@@ -404,7 +558,15 @@
       "type": "journal",
       "themes": [
         "robustness-and-adversarial-ir"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-daghighfarsoodeh-peerify",
@@ -424,7 +586,15 @@
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-ebrahimi-peeriscope",
@@ -446,7 +616,15 @@
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-ghorbanpour-peerispect",
@@ -466,7 +644,15 @@
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-sadeghian-peerprism",
@@ -485,7 +671,15 @@
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2026-hamouni-scholarly-impact",
@@ -500,7 +694,15 @@
       "type": "journal",
       "themes": [
         "ai-and-scientific-integrity"
-      ]
+      ],
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-salamat-a-contrastive-neural-disentangleme",
@@ -514,13 +716,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Machine Learning",
+      "venueShort": "",
       "year": 2025,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-bigdeli-adversarial-attacks-against-neural",
@@ -532,14 +741,21 @@
         "Clarke, Charles L. A."
       ],
       "venue": "SIGIR-AP",
+      "venueShort": "",
       "year": 2025,
       "type": "conference",
       "themes": [
         "robustness-and-adversarial-ir",
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-razavi-benchmarking-prompt-sensitivity-in",
@@ -553,14 +769,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-seyedsalehi-bias",
@@ -572,15 +794,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-arabzadeh-building-trustworthy-peer-review-q",
@@ -597,14 +825,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-khosrojerdi-datasets-for-supervised-adversaria",
@@ -618,15 +852,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "robustness-and-adversarial-ir",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-ebrahimi-exharmony",
@@ -639,15 +879,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-seyedsalehi-gender-disentangled-representation",
@@ -661,14 +907,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Machine Learning",
+      "venueShort": "",
       "year": 2025,
       "type": "journal",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-khodabakhsh-learning-to-rank-under-uncertainty",
@@ -678,14 +931,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Knowledge and Information Systems",
+      "venueShort": "",
       "year": 2025,
       "type": "journal",
       "themes": [
         "robustness-and-adversarial-ir",
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-saliminabi-llm",
@@ -699,14 +959,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-arabzadeh-query-performance-prediction",
@@ -718,14 +984,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Web Search and Data Mining",
+      "venueShort": "WSDM 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "WSDM 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-soleimany-reinforcement-learning-for-effecti",
@@ -738,14 +1010,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-bagheri-responsible-ai-day",
@@ -760,14 +1038,20 @@
         "Gambs, Sébastien"
       ],
       "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "venueShort": "KDD 2025",
       "year": 2025,
       "type": "workshop",
       "themes": [
         "responsible-information-access"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "KDD 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-dara-retrieval",
@@ -779,14 +1063,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-saleminezhad-robust-query-performance-predictio",
@@ -799,14 +1089,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Machine Learning",
+      "venueShort": "",
       "year": 2025,
       "type": "journal",
       "themes": [
         "robustness-and-adversarial-ir",
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-hamidi-rad-roksana",
@@ -817,15 +1114,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "robustness-and-adversarial-ir",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-ebrahimi-rottenreviews",
@@ -842,14 +1145,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-zhang-say-the-task-build-the-team",
@@ -861,15 +1170,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "venueShort": "ASONAM 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ASONAM 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-hillis-the-role-of-protocol-papers-scopin",
@@ -880,14 +1195,21 @@
         "Marshall, Zack"
       ],
       "venue": "IEEE Technology and Society Magazine",
+      "venueShort": "",
       "year": 2025,
       "type": "journal",
       "themes": [
         "responsible-information-access",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-seyedsalehi-understanding-and-mitigating-gende",
@@ -902,14 +1224,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Foundations and Trends in Information Retrieval",
+      "venueShort": "",
       "year": 2025,
       "type": "journal",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2025-arabzadeh-vap3",
@@ -919,14 +1248,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2025",
       "year": 2025,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2025"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-hamidi-rad-a-variational-neural-architecture-",
@@ -940,14 +1275,20 @@
         "Szlichta, Jaroslaw"
       ],
       "venue": "ACM Transactions on Information Systems",
+      "venueShort": "TOIS",
       "year": 2024,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "TOIS"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-saleminezhad-context",
@@ -959,14 +1300,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2024",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2024"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-hosseini-enhanced-retrieval-effectiveness-t",
@@ -978,14 +1325,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2024",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2024"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-ebrahimi-estimating-query-performance-throu",
@@ -997,14 +1350,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2024",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2024"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-bigdeli-evaluating-relative-retrieval-effe",
@@ -1016,13 +1375,20 @@
         "Clarke, Charles L. A."
       ],
       "venue": "SIGIR-AP",
+      "venueShort": "",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-etemadi-it-takes-a-team-to-triumph",
@@ -1036,14 +1402,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "SIGIR-AP",
+      "venueShort": "",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-arabzadeh-laque",
@@ -1054,14 +1427,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2024",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2024"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-bigdeli-learning-to-jointly-transform-and-",
@@ -1072,14 +1451,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2024",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2024"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-zarrinkalam-predicting-users-future-interests-",
@@ -1092,13 +1477,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2024,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-arabzadeh-query-performance-prediction",
@@ -1110,14 +1502,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2024",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2024"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-arabzadeh-query-performance-prediction-2",
@@ -1129,13 +1527,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "SIGIR-AP",
+      "venueShort": "",
       "year": 2024,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-arabzadeh-reviewerly",
@@ -1148,15 +1553,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2024",
       "year": 2024,
       "type": "conference",
       "themes": [
         "ai-and-scientific-integrity",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2024"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2024-mirlohi-social-alignment-contagion-in-onli",
@@ -1171,13 +1582,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IEEE Transactions on Computational Social Systems",
+      "venueShort": "",
       "year": 2024,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-arabzadeh-a-self",
@@ -1187,13 +1605,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Journal of Biomedical Informatics",
+      "venueShort": "",
       "year": 2023,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-bigdeli-de",
@@ -1207,15 +1632,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-salamat-don-t-raise-your-voice-improve-you",
@@ -1229,14 +1660,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-nguyen-dyhnet",
@@ -1248,11 +1685,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Sciences",
+      "venueShort": "",
       "year": 2023,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-etemadi-embedding",
@@ -1265,14 +1709,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Sciences",
+      "venueShort": "",
       "year": 2023,
       "type": "journal",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-hamidi-rad-learning-heterogeneous-subgraph-re",
@@ -1288,13 +1739,20 @@
         "Zarrinkalam, Fattane"
       ],
       "venue": "Information Retrieval Journal",
+      "venueShort": "",
       "year": 2023,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-salamat-learning-query",
@@ -1307,14 +1765,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-khodabakhsh-learning-to-rank-and-predict",
@@ -1324,13 +1788,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Sciences",
+      "venueShort": "",
       "year": 2023,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-vo-neural-ad",
@@ -1344,14 +1815,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-salamat-neural-disentanglement-of-query-di",
@@ -1365,14 +1842,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-arabzadeh-noisy-perturbations-for-estimating",
@@ -1384,15 +1867,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "robustness-and-adversarial-ir",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-arabzadeh-quantifying-ranker-coverage-of-dif",
@@ -1404,14 +1893,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-bagheri-report-on-the-8th-international-wo",
@@ -1423,13 +1918,20 @@
         "Zarrinkalam, Fattane"
       ],
       "venue": "SIGIR Forum",
+      "venueShort": "",
       "year": 2023,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2023-bigdeli-understanding-and-mitigating-gende",
@@ -1442,15 +1944,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2023",
       "year": 2023,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2023"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-bigdeli-a-light",
@@ -1463,15 +1971,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2022",
       "year": 2022,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-hamidi-rad-a-neural-approach-to-forming-coher",
@@ -1484,12 +1998,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Conference on Extending Database Technology",
+      "venueShort": "EDBT 2022",
       "year": 2022,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "EDBT 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-hosseini-a-systemic-functional-linguistics-",
@@ -1500,11 +2020,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2022,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-seyedsalehi-addressing-gender",
@@ -1517,15 +2044,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2022",
       "year": 2022,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-seyedsalehi-bias",
@@ -1539,15 +2072,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Conference on Extending Database Technology",
+      "venueShort": "EDBT 2022",
       "year": 2022,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "EDBT 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-mahdavimoghaddam-exploring-the-utility-of-social-co",
@@ -1558,14 +2097,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "venueShort": "CSCW 2022",
       "year": 2022,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CSCW 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-sorkhani-feature",
@@ -1578,14 +2123,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Sciences",
+      "venueShort": "",
       "year": 2022,
       "type": "journal",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-bagheri-foreword-to-the-special-issue-on-d",
@@ -1597,14 +2149,21 @@
         "Zarrinkalam, Fattane"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2022,
       "type": "journal",
       "themes": [
         "robustness-and-adversarial-ir",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-bigdeli-gender-fairness-in-information-ret",
@@ -1617,15 +2176,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2022",
       "year": 2022,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-bagheri-maison-22",
@@ -1637,14 +2202,20 @@
         "Zarrinkalam, Fattane"
       ],
       "venue": "The Web Conference (Companion Volume)",
+      "venueShort": "WWW 2022",
       "year": 2022,
       "type": "workshop",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "WWW 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-klasnja-on-the-characteristics-of-ranking",
@@ -1656,15 +2227,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM Web Science Conference",
+      "venueShort": "WebSci 2022",
       "year": 2022,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "WebSci 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-azimy-preventing-proof",
@@ -1675,13 +2252,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Sciences",
+      "venueShort": "",
       "year": 2022,
       "type": "journal",
       "themes": [
         "robustness-and-adversarial-ir"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-nguyen-pydhnet",
@@ -1692,12 +2276,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2022",
       "year": 2022,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-khodabakhsh-qualitative-measures-for-ad-hoc-ta",
@@ -1707,13 +2297,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Sciences",
+      "venueShort": "",
       "year": 2022,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2022-hamidi-rad-subgraph-representation-learning-f",
@@ -1726,12 +2323,18 @@
         "Szlichta, Jaroslaw"
       ],
       "venue": "ACM Web Science Conference",
+      "venueShort": "WebSci 2022",
       "year": 2022,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "WebSci 2022"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-fani-an-extensible-toolkit-of-query-ref",
@@ -1745,14 +2348,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-arabzadeh-bert",
@@ -1763,14 +2372,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-etemadi-collaborative-experts-discovery-in",
@@ -1783,14 +2398,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-bigdeli-exploring-gender-biases-in-informa",
@@ -1802,15 +2423,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-pourgholamali-learning-product-representations-f",
@@ -1822,11 +2449,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Knowledge-Based Systems",
+      "venueShort": "",
       "year": 2021,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-hosseini-learning-to-rank-implicit-entities",
@@ -1836,14 +2470,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2021,
       "type": "journal",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-arabzadeh-matches-made-in-heaven",
@@ -1856,14 +2497,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-arabzadeh-ms-marco-chameleons",
@@ -1874,12 +2521,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2021",
       "year": 2021,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-mirlohi-falavarjani-on-the-causal-relation-between-rea",
@@ -1893,13 +2546,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Journal of the Association for Information Science and Technology",
+      "venueShort": "",
       "year": 2021,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-mahdavimoghaddam-on-the-congruence-between-online-s",
@@ -1910,14 +2570,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "venueShort": "CSCW 2021",
       "year": 2021,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CSCW 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-bigdeli-on-the-orthogonality-of-bias-and-u",
@@ -1930,15 +2596,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "responsible-information-access",
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-etemadi-openatthetrl",
@@ -1951,12 +2623,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2021",
       "year": 2021,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-hamidi-rad-pytfl",
@@ -1970,14 +2648,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-arabzadeh-query-performance-prediction-throu",
@@ -1989,14 +2673,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-hamidi-rad-retrieving-skill",
@@ -2009,14 +2699,20 @@
         "Szlichta, Jaroslaw"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2021",
       "year": 2021,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-khodabakhsh-semantics",
@@ -2026,13 +2722,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2021,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2021-bagheri-the-6th-international-workshop-on-",
@@ -2044,14 +2747,20 @@
         "Zarrinkalam, Fattane"
       ],
       "venue": "ICWSM Workshops",
+      "venueShort": "ICWSM 2021",
       "year": 2021,
       "type": "workshop",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ICWSM 2021"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-pourgholamali-a-neural-graph-embedding-approach-",
@@ -2062,13 +2771,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Electronic Commerce Research and Applications",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-vo-extracting-temporal-and-causal-rel",
@@ -2079,11 +2795,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-zarrinkalam-extracting-mining-and-predicting-u",
@@ -2095,14 +2818,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Foundations and Trends in Information Retrieval",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-armentano-foreword-to-the-special-issue-on-m-2",
@@ -2114,13 +2844,20 @@
         "Takes, Frank W."
       ],
       "venue": "Information Retrieval Journal",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-armentano-foreword-to-the-special-issue-on-m",
@@ -2132,13 +2869,20 @@
         "Yannibelli, Virginia"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-arabzadeh-neural-embedding",
@@ -2151,13 +2895,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-khodabakhsh-predicting-future-personal-life-ev",
@@ -2168,13 +2919,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Journal of Intelligent Information Systems",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2020-fani-user-community-detection-via-embed",
@@ -2188,14 +2946,21 @@
         "Kargar, Mehdi"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2020,
       "type": "journal",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-vo-extracting-temporal-event-relation",
@@ -2205,14 +2970,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2019",
       "year": 2019,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-zarrinkalam-extracting-mining-and-predicting-u",
@@ -2223,15 +2994,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2019",
       "year": 2019,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SIGIR 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-vo-feature",
@@ -2241,11 +3018,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2019,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-arabzadeh-geometric-estimation-of-specificit",
@@ -2257,14 +3041,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2019",
       "year": 2019,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-hosseini-implicit-entity-linking-in-tweets",
@@ -2276,13 +3066,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Applied Ontology",
+      "venueShort": "",
       "year": 2019,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-armentano-maison-2019",
@@ -2294,15 +3091,21 @@
         "Takes, Frank W."
       ],
       "venue": "ACM International Conference on the Theory of Information Retrieval",
+      "venueShort": "ICTIR 2019",
       "year": 2019,
       "type": "workshop",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ICTIR 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-pourali-neural-embedding-features-for-poin",
@@ -2313,15 +3116,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "venueShort": "ASONAM 2019",
       "year": 2019,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ASONAM 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-lashkari-neural-embedding",
@@ -2332,13 +3141,20 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2019,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-mirlohi-falavarjani-on-the-causal-relation-between-use",
@@ -2351,14 +3167,20 @@
         "Ghorbani, Ali A."
       ],
       "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "venueShort": "ASONAM 2019",
       "year": 2019,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ASONAM 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-milani-fard-relationship-prediction-in-dynamic",
@@ -2369,14 +3191,20 @@
         "Wang, Ke"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2019",
       "year": 2019,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-zarrinkalam-social-user-interest-mining",
@@ -2387,14 +3215,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "venueShort": "KDD 2019",
       "year": 2019,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "KDD 2019"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-pourmasoumi-the-evolutionary-composition-of-de",
@@ -2405,11 +3239,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Future Generation Computer Systems",
+      "venueShort": "",
       "year": 2019,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-mirlohi-falavarjani-the-reflection-of-offline-activiti",
@@ -2422,13 +3263,20 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2019,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2019-zarrinkalam-user-interest-prediction-over-futu",
@@ -2439,14 +3287,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Retrieval Journal",
+      "venueShort": "",
       "year": 2019,
       "type": "journal",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-bashari-automated-composition-and-optimiza",
@@ -2457,11 +3312,18 @@
         "Du, Weichang"
       ],
       "venue": "Journal of Systems and Software",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-poots-automatic-annotation-of-text-with-",
@@ -2471,11 +3333,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IT Professional",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-biletskiy-building-a-business-domain-meta",
@@ -2488,11 +3357,18 @@
         "Akbari, Ismail"
       ],
       "venue": "Information Processing Letters",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-arabzadeh-causal-dependencies-for-future-int",
@@ -2505,14 +3381,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2018",
       "year": 2018,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2018"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-khodabakhsh-detecting-life-events-from-twitter",
@@ -2524,13 +3406,20 @@
         "Noorian, Zeinab"
       ],
       "venue": "Knowledge-Based Systems",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-feng-entity-linking-of-tweets-based-on-",
@@ -2543,13 +3432,20 @@
         "Al-Obeidat, Feras N."
       ],
       "venue": "Social Network Analysis and Mining",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-fani-finding-diachronic-like",
@@ -2562,11 +3458,18 @@
         "Du, Weichang"
       ],
       "venue": "Computational Intelligence",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-bagheri-foreword-to-the-special-issue-on-m",
@@ -2578,13 +3481,20 @@
         "Noorian, Zeinab"
       ],
       "venue": "Information Systems",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-bagheri-impact-of-document-representation-",
@@ -2595,14 +3505,20 @@
         "Al-Obeidat, Feras N."
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2018",
       "year": 2018,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2018"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-hosseini-implicit-entity-linking-through-ad",
@@ -2613,15 +3529,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "venueShort": "ASONAM 2018",
       "year": 2018,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ASONAM 2018"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-zarrinkalam-mining-user-interests-over-active-",
@@ -2632,13 +3554,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-bagheri-neural-word-and-entity-embeddings-",
@@ -2649,13 +3578,20 @@
         "Al-Obeidat, Feras N."
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-pourali-point",
@@ -2666,12 +3602,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Conference on Extending Database Technology",
+      "venueShort": "EDBT 2018",
       "year": 2018,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "EDBT 2018"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-khodabakhsh-predicting-personal-life-events-fr",
@@ -2683,14 +3625,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2018",
       "year": 2018,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2018"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-keikha-query-expansion-using-pseudo-relev",
@@ -2701,13 +3649,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Journal of Intelligent Information Systems",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-bashari-self",
@@ -2718,11 +3673,18 @@
         "Du, Weichang"
       ],
       "venue": "Journal of Systems and Software",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-vo-self",
@@ -2732,11 +3694,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Processing & Management",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-fani-stopword-detection-for-streaming-c",
@@ -2749,14 +3718,20 @@
         "Al-Obeidat, Feras N."
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2018",
       "year": 2018,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2018"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-trikha-topic",
@@ -2767,15 +3742,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2018",
       "year": 2018,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2018"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2018-cuzzola-umls-to-dbpedia-link-discovery-thr",
@@ -2786,11 +3767,18 @@
         "Jovanovic, Jelena"
       ],
       "venue": "Journal of the American Medical Informatics Association",
+      "venueShort": "",
       "year": 2018,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-ensan-an-empirical-study-of-embedding-fe",
@@ -2802,14 +3790,20 @@
         "Kouznetsov, Alexandre"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2017",
       "year": 2017,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2017"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-pourmasoumi-business-process-mining",
@@ -2819,11 +3813,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-fani-community-detection-in-social-netw",
@@ -2833,13 +3834,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-ensan-document-retrieval-model-through-s",
@@ -2849,14 +3857,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Web Search and Data Mining",
+      "venueShort": "WSDM 2017",
       "year": 2017,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "WSDM 2017"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-bashari-dynamic-software-product-line-engi",
@@ -2867,11 +3881,18 @@
         "Du, Weichang"
       ],
       "venue": "International Journal of Software Engineering and Knowledge Engineering",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-lashkari-efficient-indexing-for-semantic-se",
@@ -2883,13 +3904,20 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Expert Systems with Applications",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-pourgholamali-embedding-unstructured-side-inform",
@@ -2901,13 +3929,20 @@
         "Noorian, Zeinab"
       ],
       "venue": "Electronic Commerce Research and Applications",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-zarrinkalam-event-identification-in-social-net",
@@ -2917,13 +3952,20 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-nguyen-learning-event-count-models-with-a",
@@ -2937,13 +3979,20 @@
         "Chen, Song"
       ],
       "venue": "Conference of the Centre for Advanced Studies on Collaborative Research",
+      "venueShort": "",
       "year": 2017,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-nguyen-location",
@@ -2955,11 +4004,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Conference on Advanced Data Mining and Applications",
+      "venueShort": "",
       "year": 2017,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-vo-matrix-models-with-feature-enrichm",
@@ -2969,11 +4025,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Canadian Conference on Artificial Intelligence",
+      "venueShort": "",
       "year": 2017,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-feng-methods-and-resources-for-computin",
@@ -2983,11 +4046,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-ensan-mining-actionable-insights-from-so",
@@ -2998,15 +4068,21 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM International Conference on Web Search and Data Mining",
+      "venueShort": "WSDM 2017",
       "year": 2017,
       "type": "workshop",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "WSDM 2017"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-pourmasoumi-mining-variable-fragments-from-pro",
@@ -3017,11 +4093,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information Systems Frontiers",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-vo-open-information-extraction",
@@ -3031,11 +4114,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-zarrinkalam-predicting-users-future-interests-",
@@ -3047,15 +4137,21 @@
         "Kahani, Mohsen"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2017",
       "year": 2017,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2017"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-cuzzola-rysannmd",
@@ -3066,11 +4162,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Journal of Biomedical Informatics",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-bashari-self",
@@ -3081,12 +4184,18 @@
         "Du, Weichang"
       ],
       "venue": "International Systems and Software Product Line Conference",
+      "venueShort": "SPLC 2017",
       "year": 2017,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SPLC 2017"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-jovanovic-semantic-annotation-in-biomedicine",
@@ -3096,11 +4205,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Journal of Biomedical Semantics",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-fani-temporally-like",
@@ -3111,15 +4227,21 @@
         "Du, Weichang"
       ],
       "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2017",
       "year": 2017,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CIKM 2017"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-feng-the-state-of-the-art-in-semantic-r",
@@ -3131,11 +4253,18 @@
         "Jovanovic, Jelena"
       ],
       "venue": "Knowledge Engineering Review",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2017-noorian-toward-automated-quality",
@@ -3146,11 +4275,18 @@
         "Du, Weichang"
       ],
       "venue": "Journal of Software: Evolution and Process",
+      "venueShort": "",
       "year": 2017,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-bashari-automated-composition-of-service-m",
@@ -3161,11 +4297,18 @@
         "Du, Weichang"
       ],
       "venue": "International Conference on Software Reuse",
+      "venueShort": "",
       "year": 2016,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-jovanovic-electronic-commerce-meets-the-sema",
@@ -3175,11 +4318,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IT Professional",
+      "venueShort": "",
       "year": 2016,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-bagheri-foreword-to-the-special-issue-on-e",
@@ -3191,11 +4341,18 @@
         "Runeson, Per"
       ],
       "venue": "Empirical Software Engineering",
+      "venueShort": "",
       "year": 2016,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-zarrinkalam-inferring-implicit-topical-interes",
@@ -3207,15 +4364,21 @@
         "Kahani, Mohsen"
       ],
       "venue": "European Conference on Information Retrieval",
+      "venueShort": "ECIR 2016",
       "year": 2016,
       "type": "conference",
       "themes": [
         "neural-ranking",
         "information-people-society"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "ECIR 2016"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-noorian-quality",
@@ -3226,11 +4389,18 @@
         "Du, Weichang"
       ],
       "venue": "ACM Symposium on Applied Computing",
+      "venueShort": "",
       "year": 2016,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-ghashghaei-semantic-disambiguation-and-linkin",
@@ -3243,11 +4413,18 @@
         "Noorian, Zeinab"
       ],
       "venue": "International Journal of Semantic Computing",
+      "venueShort": "",
       "year": 2016,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-bagheri-semantic-tagging-and-linking-of-so",
@@ -3257,13 +4434,20 @@
         "Ensan, Faezeh"
       ],
       "venue": "Automated Software Engineering",
+      "venueShort": "",
       "year": 2016,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2016-fani-time",
@@ -3275,13 +4459,20 @@
         "Du, Weichang"
       ],
       "venue": "Canadian Conference on Artificial Intelligence",
+      "venueShort": "",
       "year": 2016,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-rizvi-a-systematic-review-of-distributed",
@@ -3292,11 +4483,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "Journal of Software: Evolution and Process",
+      "venueShort": "",
       "year": 2015,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-fani-an-ontology-for-describing-securit",
@@ -3306,12 +4504,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Conference on Software Engineering and Knowledge Engineering",
+      "venueShort": "SEKE 2015",
       "year": 2015,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SEKE 2015"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-cuzzola-automated-classification-and-local",
@@ -3323,11 +4527,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "Applied Soft Computing",
+      "venueShort": "",
       "year": 2015,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-cuzzola-evolutionary-fine",
@@ -3339,11 +4550,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "Expert Systems with Applications",
+      "venueShort": "",
       "year": 2015,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-cuzzola-filtering-inaccurate-entity-co",
@@ -3354,11 +4572,18 @@
         "Jovanovic, Jelena"
       ],
       "venue": "International Conference on Database and Expert Systems Applications",
+      "venueShort": "",
       "year": 2015,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-feng-lexical-semantic-relatedness-for-t",
@@ -3370,13 +4595,20 @@
         "Jovanovic, Jelena"
       ],
       "venue": "IEEE International Conference on Tools with Artificial Intelligence",
+      "venueShort": "",
       "year": 2015,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-pourmasoumi-on-business-process-variants-gener",
@@ -3388,12 +4620,18 @@
         "Asadi, Mohsen"
       ],
       "venue": "CAiSE Forum",
+      "venueShort": "CAiSE 2015",
       "year": 2015,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CAiSE 2015"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-pourmasoumi-process-fragmentation",
@@ -3405,11 +4643,18 @@
         "Asadi, Mohsen"
       ],
       "venue": "Exploring Modelling Methods for Systems Analysis and Design",
+      "venueShort": "",
       "year": 2015,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-behkamal-quality-metrics-for-linked-open-da",
@@ -3420,11 +4665,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Conference on Database and Expert Systems Applications",
+      "venueShort": "",
       "year": 2015,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-ghashghaei-semantic-annotation-of-quantitativ",
@@ -3436,11 +4688,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Linked Data for Information Extraction Workshop at ISWC",
+      "venueShort": "",
       "year": 2015,
       "type": "workshop",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-zarrinkalam-semantics",
@@ -3453,13 +4712,20 @@
         "Du, Weichang"
       ],
       "venue": "IEEE/WIC/ACM International Conference on Web Intelligence",
+      "venueShort": "",
       "year": 2015,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2015-vo-syntactic-and-semantic-structures-",
@@ -3469,11 +4735,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Symposium on Future Directions in Information Access",
+      "venueShort": "",
       "year": 2015,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-behkamal-a-metrics",
@@ -3485,11 +4758,18 @@
         "Jeremic, Zoran"
       ],
       "venue": "Journal of Theoretical and Applied Electronic Commerce Research",
+      "venueShort": "",
       "year": 2014,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-noorian-addressing-non",
@@ -3501,11 +4781,18 @@
         "Du, Weichang"
       ],
       "venue": "International Journal of Software Engineering and Knowledge Engineering",
+      "venueShort": "",
       "year": 2014,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-jovanovic-automated-semantic-tagging-of-text",
@@ -3519,11 +4806,18 @@
         "Bashash, Reza"
       ],
       "venue": "IT Professional",
+      "venueShort": "",
       "year": 2014,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-noorian-capturing-non",
@@ -3534,11 +4828,18 @@
         "Du, Weichang"
       ],
       "venue": "IEEE Canadian Conference on Electrical and Computer Engineering",
+      "venueShort": "",
       "year": 2014,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-cuzzola-derive",
@@ -3548,11 +4849,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Conference of the Centre for Advanced Studies on Collaborative Research",
+      "venueShort": "",
       "year": 2014,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-bagheri-dynamic-decision-models-for-staged",
@@ -3562,11 +4870,18 @@
         "Ensan, Faezeh"
       ],
       "venue": "Requirements Engineering",
+      "venueShort": "",
       "year": 2014,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-noorian-from-intentions-to-decisions",
@@ -3577,12 +4892,18 @@
         "Du, Weichang"
       ],
       "venue": "International Conference on Software Engineering and Knowledge Engineering",
+      "venueShort": "SEKE 2014",
       "year": 2014,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SEKE 2014"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-bashari-product-line-stakeholder-preferenc",
@@ -3593,11 +4914,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Journal of Knowledge and Systems Science",
+      "venueShort": "",
       "year": 2014,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2014-asadi-toward-automated-feature-model-con",
@@ -3610,11 +4938,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Information and Software Technology",
+      "venueShort": "",
       "year": 2014,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2013-ognjanovic-a-stratified-framework-for-handlin",
@@ -3625,11 +4960,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Expert Systems with Applications",
+      "venueShort": "",
       "year": 2013,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2013-bashari-engineering-self",
@@ -3639,12 +4981,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Software Product Line Conference",
+      "venueShort": "SPLC 2013",
       "year": 2013,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SPLC 2013"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2013-bagheri-forward-to-the-special-issue-on-vo",
@@ -3655,11 +5003,18 @@
         "Bonino da Silva Santos, Luiz Olavo"
       ],
       "venue": "Information Systems",
+      "venueShort": "",
       "year": 2013,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2013-zouaq-message-from-vorte-2013-workshop-c",
@@ -3670,11 +5025,18 @@
         "Guizzardi, Renata S. S."
       ],
       "venue": "IEEE International Enterprise Distributed Object Computing Conference Workshops",
+      "venueShort": "",
       "year": 2013,
       "type": "workshop",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2013-cuzzola-product-centric-web-page-segmentat",
@@ -3685,11 +5047,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Canadian Semantic Web Symposium",
+      "venueShort": "",
       "year": 2013,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2013-cuzzola-semantic-tagging-with-linked-open-",
@@ -3703,11 +5072,18 @@
         "Bashash, Reza"
       ],
       "venue": "Canadian Semantic Web Symposium",
+      "venueShort": "",
       "year": 2013,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2013-cuzzola-what-s-the-deal-identifying-online",
@@ -3718,11 +5094,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Australasian Web Conference",
+      "venueShort": "",
       "year": 2013,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-ognjanovic-a-metaheuristic-approach-for-the-c",
@@ -3735,11 +5118,18 @@
         "Boskovic, Marko"
       ],
       "venue": "IEEE International Conference on Services Computing",
+      "venueShort": "",
       "year": 2012,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-soltani-automated-planning-for-feature-mod",
@@ -3752,12 +5142,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Software Product Line Conference",
+      "venueShort": "SPLC 2012",
       "year": 2012,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SPLC 2012"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-bagheri-decision-support-for-the-software-",
@@ -3768,11 +5164,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "Automated Software Engineering",
+      "venueShort": "",
       "year": 2012,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-asadi-developing-semantically",
@@ -3785,11 +5188,18 @@
         "Hatala, Marek"
       ],
       "venue": "International Journal of Information System Modeling and Design",
+      "venueShort": "",
       "year": 2012,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-ensan-evolutionary-search",
@@ -3800,14 +5210,20 @@
         "Gasevic, Dragan"
       ],
       "venue": "International Conference on Advanced Information Systems Engineering",
+      "venueShort": "CAiSE 2012",
       "year": 2012,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "CAiSE 2012"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-bagheri-foreword-to-the-special-issue-on-q",
@@ -3817,11 +5233,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "Software Quality Journal",
+      "venueShort": "",
       "year": 2012,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-bagheri-formalizing-interactive-staged-fea",
@@ -3833,11 +5256,18 @@
         "Ragone, Azzurra"
       ],
       "venue": "Journal of Software: Evolution and Process",
+      "venueShort": "",
       "year": 2012,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-bagheri-guest-editorial-foreword-to-the-sp",
@@ -3848,11 +5278,18 @@
         "Pan, Jeff Z."
       ],
       "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part C",
+      "venueShort": "",
       "year": 2012,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-noorian-non",
@@ -3863,12 +5300,18 @@
         "Du, Weichang"
       ],
       "venue": "International Conference on Software Engineering and Knowledge Engineering",
+      "venueShort": "SEKE 2012",
       "year": 2012,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SEKE 2012"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2012-asadi-requirements-engineering-in-featur",
@@ -3880,12 +5323,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "International Software Product Line Conference",
+      "venueShort": "SPLC 2012",
       "year": 2012,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SPLC 2012"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-mohabbati-a-quality-aggregation-model-for-se",
@@ -3899,11 +5348,18 @@
         "Boskovic, Marko"
       ],
       "venue": "International Conference on Service-Oriented Computing",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-bagheri-assessing-the-maintainability-of-s",
@@ -3913,11 +5369,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "Software Quality Journal",
+      "venueShort": "",
       "year": 2011,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-soltani-automated-planning-for-feature-mod",
@@ -3930,11 +5393,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IEEE/ACM International Conference on Automated Software Engineering",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-ognjanovic-conditional-preferences-in-softwar",
@@ -3946,11 +5416,18 @@
         "Asadi, Mohsen"
       ],
       "venue": "ACM Symposium on Applied Computing",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-bagheri-consolidating-multiple-requirement",
@@ -3960,11 +5437,18 @@
         "Ensan, Faezeh"
       ],
       "venue": "ACM Symposium on Applied Computing",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-asadi-developing-families-of-method",
@@ -3976,11 +5460,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IFIP WG 8.1 Working Conference on Method Engineering",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-boskovic-developing-families-of-software-se",
@@ -3996,11 +5487,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "Journal of Research and Practice in Information Technology",
+      "venueShort": "",
       "year": 2011,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-cuzzola-fault-detection-through-sequential",
@@ -4011,11 +5509,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Conference on Machine Learning and Applications",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-asadi-goal",
@@ -4028,11 +5533,18 @@
         "Mohabbati, Bardia"
       ],
       "venue": "ACM Symposium on Applied Computing",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-ensan-goal",
@@ -4045,11 +5557,18 @@
         "Biletskiy, Yevgen"
       ],
       "venue": "International Conference on Information Technology: New Generations",
+      "venueShort": "",
       "year": 2011,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2011-bagheri-modular-feature-models",
@@ -4061,11 +5580,18 @@
         "Boskovic, Marko"
       ],
       "venue": "Journal of Research and Practice in Information Technology",
+      "venueShort": "",
       "year": 2011,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-ensan-a-framework-for-handling-revisions",
@@ -4075,11 +5601,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM Symposium on Applied Computing",
+      "venueShort": "",
       "year": 2010,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-bagheri-a-model-for-the-integration-of-pri",
@@ -4089,11 +5622,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part A",
+      "venueShort": "",
       "year": 2010,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-bagheri-an-exploratory-classification-of-a",
@@ -4103,11 +5643,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Information Systems and e-Business Management",
+      "venueShort": "",
       "year": 2010,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-boskovic-aspect",
@@ -4121,11 +5668,18 @@
         "Hatala, Marek"
       ],
       "venue": "MoDELS Workshops",
+      "venueShort": "",
       "year": 2010,
       "type": "workshop",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-boskovic-automated-staged-configuration-wit",
@@ -4139,11 +5693,18 @@
         "Hatala, Marek"
       ],
       "venue": "International Journal of Software Engineering and Knowledge Engineering",
+      "venueShort": "",
       "year": 2010,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-tavallaee-automatic-discovery-of-network-app",
@@ -4155,11 +5716,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Canadian Conference on Artificial Intelligence",
+      "venueShort": "",
       "year": 2010,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-bagheri-configuring-software-product-line-",
@@ -4171,12 +5739,18 @@
         "Gasevic, Dragan"
       ],
       "venue": "International Software Product Line Conference",
+      "venueShort": "SPLC 2010",
       "year": 2010,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SPLC 2010"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-bagheri-evidential-reasoning-for-the-treat",
@@ -4186,11 +5760,18 @@
         "Ensan, Faezeh"
       ],
       "venue": "ACM Symposium on Applied Computing",
+      "venueShort": "",
       "year": 2010,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-bagheri-stratified-analytic-hierarchy-proc",
@@ -4202,12 +5783,18 @@
         "Soltani, Samaneh"
       ],
       "venue": "International Software Product Line Conference",
+      "venueShort": "SPLC 2010",
       "year": 2010,
       "type": "conference",
       "themes": [],
-      "links": {},
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
       "needsReview": true,
-      "venueShort": "SPLC 2010"
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-bagheri-the-analysis-and-management-of-non",
@@ -4217,11 +5804,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Knowledge and Information Systems",
+      "venueShort": "",
       "year": 2010,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2010-bagheri-uml",
@@ -4231,11 +5825,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Information Systems Frontiers",
+      "venueShort": "",
       "year": 2010,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2009-bagheri-a-belief",
@@ -4245,11 +5846,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Journal of Systems and Software",
+      "venueShort": "",
       "year": 2009,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2009-tavallaee-a-detailed-analysis-of-the-kdd-cup",
@@ -4261,11 +5869,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "IEEE Symposium on Computational Intelligence for Security and Defense Applications",
+      "venueShort": "",
       "year": 2009,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2009-jashki-an-iterative-hybrid-filter",
@@ -4277,11 +5892,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Canadian Conference on Artificial Intelligence",
+      "venueShort": "",
       "year": 2009,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2009-bagheri-astrolabe",
@@ -4291,11 +5913,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part A",
+      "venueShort": "",
       "year": 2009,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2009-bagheri-can-reputation-migrate-on-the-prop",
@@ -4306,13 +5935,20 @@
         "Barouni-Ebrahimi, M."
       ],
       "venue": "Knowledge-Based Systems",
+      "venueShort": "",
       "year": 2009,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-bagheri-a-belief",
@@ -4324,13 +5960,20 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Canadian Conference on Artificial Intelligence",
+      "venueShort": "",
       "year": 2008,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-barouni-ebrahimi-a-frequency-mining",
@@ -4341,13 +5984,20 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Canadian Conference on Artificial Intelligence",
+      "venueShort": "",
       "year": 2008,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-makki-automating-architecture-trade",
@@ -4358,11 +6008,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "European Conference on Software Architecture",
+      "venueShort": "",
       "year": 2008,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-bagheri-experiences-on-the-belief",
@@ -4372,11 +6029,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Australian Software Engineering Conference",
+      "venueShort": "",
       "year": 2008,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-bagheri-on-the-definition-of-essential-and",
@@ -4386,11 +6050,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Mexican International Conference on Artificial Intelligence",
+      "venueShort": "",
       "year": 2008,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-ghorbani-the-state-of-the-art-in-critical-i",
@@ -4400,11 +6071,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "International Journal of Critical Infrastructures",
+      "venueShort": "",
       "year": 2008,
       "type": "journal",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-bagheri-towards-a-belief",
@@ -4414,11 +6092,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Hawaii International Conference on System Sciences",
+      "venueShort": "",
       "year": 2008,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2008-jashki-towards-a-more-efficient-static-so",
@@ -4429,11 +6114,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+      "venueShort": "",
       "year": 2008,
       "type": "workshop",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2007-bagheri-a-framework-for-distributed-collab",
@@ -4443,11 +6135,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "OOPSLA Companion",
+      "venueShort": "",
       "year": 2007,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2007-bagheri-a-proposal-for-taming-uncertainty-",
@@ -4456,11 +6155,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "OOPSLA Companion",
+      "venueShort": "",
       "year": 2007,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2007-bagheri-an-agent",
@@ -4472,13 +6178,20 @@
         "Yari, Alireza"
       ],
       "venue": "International Journal of Business Process Integration and Management",
+      "venueShort": "",
       "year": 2007,
       "type": "journal",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2007-bagheri-on-the-collaborative-development-o",
@@ -4488,11 +6201,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "International Conference on Quality Software",
+      "venueShort": "",
       "year": 2007,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2007-bagheri-risk-analysis-in-critical-infrastr",
@@ -4502,11 +6222,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "Communication Networks and Services Research Conference",
+      "venueShort": "",
       "year": 2007,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2007-ensan-the-application-of-users-collectiv",
@@ -4517,13 +6244,20 @@
         "Kahani, Mohsen"
       ],
       "venue": "Communication Networks and Services Research Conference",
+      "venueShort": "",
       "year": 2007,
       "type": "conference",
       "themes": [
         "neural-ranking"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2006-bagheri-behavior-analysis-through-reputati",
@@ -4533,13 +6267,20 @@
         "Ghorbani, Ali A."
       ],
       "venue": "International Conference on Privacy, Security and Trust",
+      "venueShort": "",
       "year": 2006,
       "type": "conference",
       "themes": [
         "information-people-society"
       ],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2006-bagheri-dejong-function-optimization-by-me",
@@ -4549,11 +6290,18 @@
         "Deldari, Hossein"
       ],
       "venue": "IEEE Symposium on Computers and Communications",
+      "venueShort": "",
       "year": 2006,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2006-ensan-fact",
@@ -4564,11 +6312,18 @@
         "Bagheri, Ebrahim"
       ],
       "venue": "IEEE Symposium on Computers and Communications",
+      "venueShort": "",
       "year": 2006,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2006-bagheri-towards-an-mda",
@@ -4578,11 +6333,18 @@
         "Ghorbani, Ali A."
       ],
       "venue": "International Conference on Privacy, Security and Trust",
+      "venueShort": "",
       "year": 2006,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
     },
     {
       "id": "2005-bagheri-a-novel-resource-dissemination-and",
@@ -4593,11 +6355,40 @@
         "Kahani, Mohsen"
       ],
       "venue": "International Conference on High Performance Computing and Communications",
+      "venueShort": "",
       "year": 2005,
       "type": "conference",
       "themes": [],
-      "links": {},
-      "needsReview": true
+      "award": "",
+      "abstract": "",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": true,
+      "openalexId": "",
+      "citedBy": null
+    },
+    {
+      "id": "fakeid",
+      "title": "some title from somewhere",
+      "authors": [
+        "Bagheri, Towheed"
+      ],
+      "venue": "Science",
+      "venueShort": "",
+      "year": 2028,
+      "type": "journal",
+      "themes": [
+        "responsible-information-access"
+      ],
+      "award": "",
+      "abstract": "what an abstarct!",
+      "links": null,
+      "bibtex": "",
+      "featured": false,
+      "needsReview": false,
+      "openalexId": "",
+      "citedBy": null
     }
   ]
 }
