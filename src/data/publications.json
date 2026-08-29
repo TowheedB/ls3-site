@@ -1,21 +1,26 @@
 {
   "publications": [
     {
-      "id": "fakeid",
-      "title": "some title from somewhere",
+      "id": "someid",
+      "title": "My new paper",
       "authors": [
-        "Bagheri, Towheed"
+        "Bagheri, Ebrahim"
       ],
       "venue": "Science",
       "venueShort": "",
       "year": 2027,
-      "type": "journal",
-      "themes": [
-        "responsible-information-access"
-      ],
+      "type": "conference",
+      "themes": [],
       "award": "",
-      "abstract": "what an abstarct!",
-      "links": null,
+      "abstract": "Large language models acquire substantial factual and procedural knowledge when trained on large datasets. A growing body of work is concerned with understanding, modifying, and auditing this knowledge. Many of these works explore the localization of knowledge: whether a fact, skill, or competence associated with a task is localized in a small set of parameters within the model or distributed across them. There is a mixed perspective regarding the state of the art. Some studies identify compact representational or causal localization of facts, including mid-layer feed-forward modules and knowledge neurons, while others show that restricting the parameter updates allows one to change factual associations. Causal tracing scores can fail to accurately locate the best edit site, and superposition can make individual neurons polysemantic, so localization does not have to align with any isolated units. We believe that part of this disagreement is definitional. The question``Is knowledge localized?''conflates three distinct properties. Representational localization is whether knowledge can be retrieved from a restricted number of representational units; causal localization is whether interventions on a restricted set of units will affect the behavior; and editable localization is whether a restricted region of the model's native parameters can be changed to affect the knowledge. In this survey, we aim to disambiguate the existing works based on the kind of evidence they actually present and show that the evidence available is uneven in its distribution across the three pairwise relations. We also provide a measurement checklist for describing a localization claim in terms of the notion, units, representation system, and measurement procedure, along with a research program toward a cohesive, representation-inclusive account of the localization of knowledge.",
+      "links": {
+        "pdf": "https://www.preprints.org/frontend/manuscript/f597e5be3978cef25cb8246e50e0616a/download_pub",
+        "arxiv": "",
+        "doi": "",
+        "code": "",
+        "data": "",
+        "video": ""
+      },
       "bibtex": "",
       "featured": false,
       "needsReview": false,
