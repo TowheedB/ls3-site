@@ -24,7 +24,6 @@ const groups = ROLE_ORDER
   }))
   .filter((g) => g.people.length > 0);
 
-const missingStudents = !current.some((p) => ['phd', 'msc', 'postdoc', 'undergrad'].includes(p.data.role));
 ---
 
 <BaseLayout
@@ -58,18 +57,6 @@ const missingStudents = !current.some((p) => ['phd', 'msc', 'postdoc', 'undergra
           </p>
         </div>
       </section>
-    )}
-
-    {missingStudents && (
-      <div class="callout notice">
-        <p class="k">This section is being rebuilt</p>
-        <p>
-          LS3 moved from Toronto Metropolitan University to the University of Toronto's Faculty of
-          Information, and the current student and postdoc roster has not yet been republished.
-          Lab members: copy <code>templates/person.md</code> into <code>src/content/people/</code>
-          and open a pull request — instructions are in <code>CONTRIBUTING.md</code>.
-        </p>
-      </div>
     )}
 
     {groups.map((g) => (
@@ -117,7 +104,6 @@ const missingStudents = !current.some((p) => ['phd', 'msc', 'postdoc', 'undergra
   .dlinks { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-1); }
   .dlinks a { font-family: var(--f-mono); font-size: 11.5px; }
 
-  .notice { margin-top: var(--s-3); }
 
   .group { margin-top: var(--s-5); }
 
