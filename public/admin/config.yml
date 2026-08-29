@@ -104,12 +104,10 @@ collections:
             widget: string
             hint: The word from the headline to mark in yellow. It must appear in the headline exactly, or nothing is highlighted.
           - { name: lede, label: Opening paragraph, widget: text }
-          - { name: directorLine, label: Director line, widget: string }
           - { name: ctaPrimary, label: First button, widget: string }
           - { name: ctaSecondary, label: Second button, widget: string }
           - { name: themesHeading, label: Research section heading, widget: string }
           - { name: publicationsHeading, label: Publications section heading, widget: string }
-          - { name: newsHeading, label: News section heading, widget: string }
           - { name: body, label: Notes (not shown on the site), widget: markdown, required: false }
 
       - name: join
@@ -285,28 +283,6 @@ collections:
         default: true
         hint: Leave this on. It stops the alumni import script from overwriting this profile.
       - { name: body, label: Biography, widget: markdown, required: false }
-
-  # ------------------------------------------------------------------- news
-  - name: news
-    label: News
-    icon: campaign
-    folder: src/content/news
-    extension: md
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    summary: '{{date | date("YYYY-MM-DD")}} — {{title}}'
-    sortable_fields: [date, title, kind]
-    fields:
-      - { name: title, label: Title, widget: string }
-      - { name: date, label: Date, widget: datetime, format: 'YYYY-MM-DD', time_format: false }
-      - name: kind
-        label: Kind
-        widget: select
-        options: [paper, award, media, talk, lab]
-        default: lab
-      - { name: summary, label: Summary, widget: text, hint: One or two sentences. Shown on the home page and in the RSS feed. }
-      - { name: external, label: External link, widget: string, required: false }
-      - { name: body, label: Full text, widget: markdown, required: false }
 
   # --------------------------------------------------------------- research
   - name: themes

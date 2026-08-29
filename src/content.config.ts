@@ -159,17 +159,6 @@ const publications = defineCollection({
   }),
 });
 
-const news = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
-  schema: z.object({
-    title: z.string(),
-    date: z.coerce.date(),
-    summary: z.string(),
-    external: optUrl,
-    kind: z.enum(['paper', 'award', 'media', 'talk', 'lab']).default('lab'),
-  }),
-});
-
 const projects = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/projects' }),
   schema: z.object({
@@ -201,12 +190,10 @@ const pages = defineCollection({
     heading: optText,
     highlight: optText,
     lede: optText,
-    directorLine: optText,
     ctaPrimary: optText,
     ctaSecondary: optText,
     themesHeading: optText,
     publicationsHeading: optText,
-    newsHeading: optText,
 
     // join
     statusLabel: optText,
@@ -221,4 +208,4 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { themes, people, publications, news, projects, pages };
+export const collections = { themes, people, publications, projects, pages };

@@ -8,9 +8,9 @@
 /open-positions/                            /join/                                     301
 /open-positions                             /join/                                     301
 
-/category/news/                             /news/                                     301
-/category/*                                 /news/                                     301
-/tag/*                                      /news/                                     301
+/category/news/                             /                                     301
+/category/*                                 /                                     301
+/tag/*                                      /                                     301
 /author/*                                   /people/                                   301
 
 # Old research areas -> nearest current theme.
@@ -23,9 +23,9 @@
 
 # One-off pages from the old site.
 /sigir_2022_tutorial/                       /research/                                 301
-/canadian-responsible-ai-2022-meet-and-greet/  /news/                                  301
+/canadian-responsible-ai-2022-meet-and-greet/  /                                  301
 
 # WordPress leftovers.
 /wp-content/*                               /                                          301
-/feed/                                      /news/rss.xml                              301
-/comments/feed/                             /news/rss.xml                              301
+/feed/                                      /                              301
+/comments/feed/                             /                              301

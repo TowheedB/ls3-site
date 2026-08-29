@@ -34,56 +34,43 @@ const resources = (await getPublications()).filter((p) => RESOURCE.test(p.data.t
       </p>
     </header>
 
-    {projects.length === 0 ? (
-      <div class="callout">
-        <p class="k">Nothing listed yet</p>
-        <p>
-          The projects section is set up but empty. To add one, copy
-          <code>templates/project.md</code> into <code>src/content/projects/</code> and open a pull
-          request. Funded grants, released tools and long-running collaborations all belong here.
-        </p>
-      </div>
-    ) : (
-      <>
-        {active.length > 0 && (
-          <section class="grp">
-            <div class="section-rule"><h2>Active</h2><span class="more num">{active.length}</span></div>
-            <div class="grid grid-2">
-              {active.map((p) => (
-                <article class="proj">
-                  <h3>{p.data.site ?? p.data.repo
-                    ? <a href={p.data.site ?? p.data.repo} rel="noopener">{p.data.title}</a>
-                    : p.data.title}</h3>
-                  <p class="blurb">{p.data.blurb}</p>
-                  <p class="meta">
-                    {p.data.funder && <span class="tag">{p.data.funder}</span>}
-                    {p.data.years && <span class="tag num">{p.data.years}</span>}
-                    {p.data.themes.map((t) => <a class="tag" href={`/research/${t}/`}>{themeTitle(t)}</a>)}
-                  </p>
-                </article>
-              ))}
-            </div>
-          </section>
-        )}
+    {active.length > 0 && (
+      <section class="grp">
+        <div class="section-rule"><h2>Active</h2><span class="more num">{active.length}</span></div>
+        <div class="grid grid-2">
+          {active.map((p) => (
+            <article class="proj">
+              <h3>{p.data.site ?? p.data.repo
+                ? <a href={p.data.site ?? p.data.repo} rel="noopener">{p.data.title}</a>
+                : p.data.title}</h3>
+              <p class="blurb">{p.data.blurb}</p>
+              <p class="meta">
+                {p.data.funder && <span class="tag">{p.data.funder}</span>}
+                {p.data.years && <span class="tag num">{p.data.years}</span>}
+                {p.data.themes.map((t) => <a class="tag" href={`/research/${t}/`}>{themeTitle(t)}</a>)}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
 
-        {completed.length > 0 && (
-          <section class="grp">
-            <div class="section-rule"><h2>Completed</h2><span class="more num">{completed.length}</span></div>
-            <div class="grid grid-2">
-              {completed.map((p) => (
-                <article class="proj done">
-                  <h3>{p.data.title}</h3>
-                  <p class="blurb">{p.data.blurb}</p>
-                  <p class="meta">
-                    {p.data.funder && <span class="tag">{p.data.funder}</span>}
-                    {p.data.years && <span class="tag num">{p.data.years}</span>}
-                  </p>
-                </article>
-              ))}
-            </div>
-          </section>
-        )}
-      </>
+    {completed.length > 0 && (
+      <section class="grp">
+        <div class="section-rule"><h2>Completed</h2><span class="more num">{completed.length}</span></div>
+        <div class="grid grid-2">
+          {completed.map((p) => (
+            <article class="proj done">
+              <h3>{p.data.title}</h3>
+              <p class="blurb">{p.data.blurb}</p>
+              <p class="meta">
+                {p.data.funder && <span class="tag">{p.data.funder}</span>}
+                {p.data.years && <span class="tag num">{p.data.years}</span>}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
     )}
 
     {resources.length > 0 && (

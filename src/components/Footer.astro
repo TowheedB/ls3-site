@@ -15,6 +15,13 @@ const a = settings.address;
         {settings.institution}.<br />
         Directed by <a href="/people/">Prof. {settings.directorName}</a>.
       </p>
+
+      {/* The university lockup, light and dark variants swapped by theme the
+          same way the lab mark is — navy on near-black is unreadable. */}
+      <a class="uoft" href="https://www.utoronto.ca/" rel="noopener" aria-label="University of Toronto">
+        <img class="uoft-img has-dark" src="/uoft-logo.png" alt="University of Toronto" width="180" height="64" loading="lazy" />
+        <img class="uoft-img only-dark" src="/uoft-logo-dark.png" alt="" aria-hidden="true" width="180" height="64" loading="lazy" />
+      </a>
     </div>
 
     <div class="col">
@@ -24,15 +31,14 @@ const a = settings.address;
       <a href="/people/">People</a>
       <a href="/projects/">Projects</a>
       <a href="/people/alumni/">Alumni</a>
-      <a href="/news/">News</a>
     </div>
 
     <div class="col">
       <h2>Connect</h2>
       <a href="/join/">Join the lab</a>
       <a href="/contact/">Contact &amp; visiting</a>
-      <a href="/news/rss.xml">News RSS</a>
-      <a href={settings.links.faculty}>Faculty of Information</a>
+      <a href={settings.links.faculty} rel="noopener">Faculty of Information</a>
+      <a href="https://web.cs.toronto.edu/" rel="noopener">Computer Science</a>
     </div>
 
     <div class="col">
@@ -93,6 +99,24 @@ const a = settings.address;
   }
   .body { font-size: var(--t-small); color: var(--ink-2); line-height: 1.6; }
   .body a { text-decoration: underline; }
+
+  .uoft { display: inline-block; margin-top: 4px; }
+  /* No `display` here on purpose. `.uoft img` outscores `.uoft-img.only-dark`
+     on specificity, so setting display:block here would defeat the theme swap
+     below and show both variants at once. Display belongs to the swap rules. */
+  .uoft img { height: auto; width: 180px; }
+  .uoft:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 2px; }
+
+  .uoft-img.has-dark { display: block; }
+  .uoft-img.only-dark { display: none; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .uoft-img.has-dark { display: none; }
+    :root:not([data-theme="light"]) .uoft-img.only-dark { display: block; }
+  }
+  :root[data-theme="dark"] .uoft-img.has-dark { display: none; }
+  :root[data-theme="dark"] .uoft-img.only-dark { display: block; }
+  :root[data-theme="light"] .uoft-img.has-dark { display: block; }
+  :root[data-theme="light"] .uoft-img.only-dark { display: none; }
 
   .base {
     border-top: 1px solid var(--rule);

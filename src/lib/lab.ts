@@ -64,10 +64,6 @@ export async function getThemes() {
   return themes.sort((a, b) => a.data.order - b.data.order);
 }
 
-export async function getNews() {
-  const news = await getCollection('news');
-  return news.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-}
 
 /**
  * Page copy from src/content/pages/. Returns the entry's data, or an empty
