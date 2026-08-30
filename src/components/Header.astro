@@ -17,6 +17,13 @@ const isOn = (href: string) => path === href || (href !== '/' && path.startsWith
       <Logo size={34} />
     </a>
 
+    {/* The university, alongside the lab. Appears only from 1080px — see the
+        note on its breakpoint below. */}
+    <a class="uoft-mark" href="https://www.utoronto.ca/" rel="noopener" aria-label="University of Toronto">
+      <img class="uoft-hd has-dark" src="/uoft-logo.png" alt="University of Toronto" width="99" height="35" />
+      <img class="uoft-hd only-dark" src="/uoft-logo-dark.png" alt="" aria-hidden="true" width="99" height="35" />
+    </a>
+
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">
       <span class="menu-bars" aria-hidden="true"></span>
       <span class="sr">Menu</span>
@@ -59,6 +66,37 @@ const isOn = (href: string) => path === href || (href !== '/' && path.startsWith
   .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
 
   .site-nav { display: none; }
+
+  /* ---- University of Toronto lockup -------------------------------------
+     Note: no `display` on `.uoft-mark img`. That selector outscores
+     `.uoft-hd.only-dark`, and setting display there shows both theme
+     variants at once. Display belongs to the swap rules alone. */
+  .uoft-mark {
+    display: none;                 /* shown at the nav breakpoint below */
+    align-items: center;
+    padding-left: var(--s-2);
+    margin-left: 2px;
+    border-left: 1px solid var(--rule-strong);
+  }
+  .uoft-mark img { width: 99px; height: auto; }
+  .uoft-mark:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 2px; }
+
+  /* Its own breakpoint, above the nav's. At 900px the bar is full and adding
+     the lockup wraps the "Join us" button onto two lines. */
+  @media (min-width: 1080px) {
+    .uoft-mark { display: flex; }
+  }
+
+  .uoft-hd.has-dark { display: block; }
+  .uoft-hd.only-dark { display: none; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .uoft-hd.has-dark { display: none; }
+    :root:not([data-theme="light"]) .uoft-hd.only-dark { display: block; }
+  }
+  :root[data-theme="dark"] .uoft-hd.has-dark { display: none; }
+  :root[data-theme="dark"] .uoft-hd.only-dark { display: block; }
+  :root[data-theme="light"] .uoft-hd.has-dark { display: block; }
+  :root[data-theme="light"] .uoft-hd.only-dark { display: none; }
 
   .sr {
     position: absolute; width: 1px; height: 1px; overflow: hidden;
