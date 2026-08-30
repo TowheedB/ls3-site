@@ -12,7 +12,9 @@ interface Props {
 const { pub, labKeys, compact = false, hideYear = false } = Astro.props;
 const d = pub.data;
 const L = (d.links ?? {}) as Record<string, string | undefined>;
-const links = Object.entries(L).filter(([, v]) => !!v) as [string, string][];
+// `pdf` is deliberately excluded: the title itself opens it, so a PDF chip
+// beside it would be a second control doing the identical thing.
+const links = Object.entries(L).filter(([k, v]) => !!v && k !== 'pdf') as [string, string][];
 
 /*
  * Where the title points. A real link wins if there is one — PDF first, then

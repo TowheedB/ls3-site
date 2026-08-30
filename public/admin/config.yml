@@ -196,7 +196,17 @@ collections:
                 widget: object
                 required: false
                 fields:
-                  - { name: pdf, label: PDF, widget: string, required: false }
+                  - name: pdf
+                    label: PDF
+                    widget: file
+                    required: false
+                    accept: 'application/pdf,.pdf'
+                    choose_url: true
+                    hint: >-
+                      Upload a PDF, or click "Enter URL" to point at one that already
+                      lives somewhere else. Whichever you use, the publication's title
+                      becomes a link to it. Leave it empty and the title falls back to
+                      a Google Scholar search.
                   - { name: arxiv, label: arXiv, widget: string, required: false }
                   - { name: doi, label: DOI, widget: string, required: false }
                   - { name: code, label: Code, widget: string, required: false }

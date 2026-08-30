@@ -1,11 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ThemeArt from '../../components/ThemeArt.astro';
-import { getThemes, getPublications } from '../../lib/lab';
+import { getThemes } from '../../lib/lab';
 
 const themes = await getThemes();
-const pubs = await getPublications();
-const countFor = (id: string) => pubs.filter((p) => p.data.themes.includes(id as any)).length;
 ---
 
 <BaseLayout
@@ -35,9 +33,6 @@ const countFor = (id: string) => pubs.filter((p) => p.data.themes.includes(id as
             <p class="sh">{t.data.short}</p>
             <p class="foot">
               <a class="btn btn-ghost" href={`/research/${t.id}/`}>Read more</a>
-              <a class="cnt" href={`/publications/?theme=${t.id}`}>
-                {countFor(t.id)} publication{countFor(t.id) === 1 ? '' : 's'} →
-              </a>
             </p>
           </div>
         </li>
@@ -82,5 +77,4 @@ const countFor = (id: string) => pubs.filter((p) => p.data.themes.includes(id as
   }
   .sh { max-width: var(--measure); color: var(--ink-2); }
   .foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); margin-top: 4px; }
-  .cnt { font-family: var(--f-mono); font-size: var(--t-meta); }
 </style>
