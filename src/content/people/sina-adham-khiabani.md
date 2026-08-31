@@ -2,6 +2,9 @@
 name: "Sina Adham Khiabani"
 role: "postdoc"
 status: "alumni"
-nowAt: "Image Processing and Remote Sensing Engineer, A.U.G. Signals Ltd."
+title: "Postdoctoral Fellow"
+startYear: 2016
+gradYear: 2017
 order: 100
+manual: true
 ---

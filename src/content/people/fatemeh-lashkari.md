@@ -2,6 +2,9 @@
 name: "Fatemeh Lashkari"
 role: "phd"
 status: "alumni"
-nowAt: "Research Scientist, Sharif University of Technology"
+title: "PhD Student"
+startYear: 2014
+gradYear: 2019
 order: 100
+manual: true
 ---

@@ -2,6 +2,9 @@
 name: "Andisheh Keikha"
 role: "msc"
 status: "alumni"
-nowAt: "Senior Frontend Developer, Drop"
+title: "MSc Student"
+startYear: 2014
+gradYear: 2016
 order: 100
+manual: true
 ---

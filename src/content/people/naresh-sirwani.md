@@ -2,6 +2,9 @@
 name: "Naresh Sirwani"
 role: "msc"
 status: "alumni"
-nowAt: "MDM Consultant & Data Scientist, Cognizant"
+title: "MSc Student"
+startYear: 2018
+gradYear: 2019
 order: 100
+manual: true
 ---

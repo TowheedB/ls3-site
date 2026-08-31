@@ -1,7 +1,10 @@
 ---
 name: "Hossein Fani"
-role: "phd"
+role: "postdoc"
 status: "alumni"
-nowAt: "Assistant Professor, University of Windsor"
+title: "Postdoctoral Fellow"
+startYear: 2019
+gradYear: 2020
 order: 100
+manual: true
 ---

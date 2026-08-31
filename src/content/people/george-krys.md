@@ -2,6 +2,9 @@
 name: "George Krys"
 role: "msc"
 status: "alumni"
-nowAt: "Data Architect, Government of Alberta"
+title: "MSc Student"
+startYear: 2012
+gradYear: 2015
 order: 100
+manual: true
 ---

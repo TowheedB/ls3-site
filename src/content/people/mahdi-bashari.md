@@ -2,6 +2,9 @@
 name: "Mahdi Bashari"
 role: "phd"
 status: "alumni"
-nowAt: "Principal Software Engineer, IBM"
+title: "PhD Student"
+startYear: 2012
+gradYear: 2018
 order: 100
+manual: true
 ---

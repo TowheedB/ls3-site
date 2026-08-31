@@ -2,6 +2,9 @@
 name: "Behshid Behkamal"
 role: "phd"
 status: "alumni"
-nowAt: "Assistant Professor, Ferdowsi University"
+title: "PhD Student"
+startYear: 2011
+gradYear: 2014
 order: 100
+manual: true
 ---

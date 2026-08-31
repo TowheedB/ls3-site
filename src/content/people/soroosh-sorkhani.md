@@ -2,6 +2,9 @@
 name: "Soroosh Sorkhani"
 role: "msc"
 status: "alumni"
-nowAt: "Research Assistant"
+title: "MSc Student"
+startYear: 2019
+gradYear: 2021
 order: 100
+manual: true
 ---

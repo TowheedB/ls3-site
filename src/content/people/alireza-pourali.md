@@ -2,6 +2,9 @@
 name: "Alireza Pourali"
 role: "msc"
 status: "alumni"
-nowAt: "PhD Student, Electrical Engineering and Computer Science, York University"
+title: "MSc Student"
+startYear: 2016
+gradYear: 2018
 order: 100
+manual: true
 ---

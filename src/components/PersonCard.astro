@@ -17,6 +17,13 @@ const LINK_LABEL: Record<string, string> = {
     <h3>{d.name}</h3>
     {d.title && <p class="role">{d.title}</p>}
     {d.affiliation && <p class="aff">{d.affiliation}</p>}
+    {d.startYear && (
+      <p class="yrs num">
+        {d.gradYear && d.gradYear !== d.startYear
+          ? `${d.startYear}–${d.gradYear}`
+          : d.status === 'current' ? `${d.startYear}–present` : `${d.startYear}`}
+      </p>
+    )}
     {d.interests?.length > 0 && <p class="int">{d.interests.join(' · ')}</p>}
     {links.length > 0 && (
       <p class="links">
@@ -45,6 +52,7 @@ const LINK_LABEL: Record<string, string> = {
   h3 { font-size: 16.5px; font-weight: 600; letter-spacing: -0.01em; }
   .role { font-size: var(--t-small); color: var(--ink-2); }
   .aff { font-size: var(--t-meta); color: var(--ink-3); }
+  .yrs { font-family: var(--f-mono); font-size: var(--t-meta); color: var(--ink-3); }
   .int {
     font-family: var(--f-mono);
     font-size: 11px;

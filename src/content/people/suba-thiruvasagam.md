@@ -2,6 +2,9 @@
 name: "Suba Thiruvasagam"
 role: "msc"
 status: "alumni"
-nowAt: "Director, Software Engineering, Loblaw Digital"
+title: "MSc Student"
+startYear: 2013
+gradYear: 2016
 order: 100
+manual: true
 ---

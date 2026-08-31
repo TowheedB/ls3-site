@@ -2,6 +2,10 @@
 name: "Masoud Bashari"
 role: "visitor"
 status: "alumni"
-nowAt: "Director of AI and Software Development, IEMS Ltd"
+title: "Visiting Student, Ferdowsi University of Mashhad"
+affiliation: "Ferdowsi University of Mashhad"
+startYear: 2016
+gradYear: 2017
 order: 100
+manual: true
 ---

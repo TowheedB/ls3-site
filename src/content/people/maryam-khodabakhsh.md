@@ -2,6 +2,9 @@
 name: "Maryam Khodabakhsh"
 role: "phd"
 status: "alumni"
-nowAt: "Assistant Professor, Shahrood University of Technology"
+title: "PhD Student"
+startYear: 2016
+gradYear: 2019
 order: 100
+manual: true
 ---

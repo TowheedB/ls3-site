@@ -2,6 +2,9 @@
 name: "Fatemeh Pourgholamali"
 role: "phd"
 status: "alumni"
-nowAt: "Assistant Professor, Vali-e-Asr University"
+title: "PhD Student"
+startYear: 2016
+gradYear: 2019
 order: 100
+manual: true
 ---

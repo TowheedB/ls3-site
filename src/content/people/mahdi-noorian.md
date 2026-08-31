@@ -1,7 +1,10 @@
 ---
 name: "Mahdi Noorian"
-role: "phd"
+role: "postdoc"
 status: "alumni"
-nowAt: "Machine Learning Engineer, RBC"
+title: "Postdoctoral Fellow"
+startYear: 2017
+gradYear: 2019
 order: 100
+manual: true
 ---

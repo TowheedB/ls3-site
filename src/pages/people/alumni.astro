@@ -50,6 +50,11 @@ const placed = alumni.filter((p) => p.data.nowAt).length;
           {g.people.map((p) => (
             <li>
               <span class="nm">{p.data.name}</span>
+              <span class="yrs num">
+                {p.data.gradYear && p.data.gradYear !== p.data.startYear
+                  ? `${p.data.startYear}–${p.data.gradYear}`
+                  : p.data.startYear}
+              </span>
               {p.data.nowAt
                 ? <span class="now">{p.data.nowAt}</span>
                 : <span class="now unk">—</span>}
@@ -60,8 +65,9 @@ const placed = alumni.filter((p) => p.data.nowAt).length;
     ))}
 
     <p class="note num">
-      {placed} of {alumni.length} entries record a current position. Migrated from the previous
-      LS3 site; some may be out of date.
+      {placed} of {alumni.length} entries record a current position. Roles and years come
+      from the lab's own records; where someone held more than one role, the most senior is
+      shown.
     </p>
   </div>
 </BaseLayout>
@@ -89,9 +95,10 @@ const placed = alumni.filter((p) => p.data.nowAt).length;
   }
   .rows li:hover { background: var(--yellow-soft); }
   @media (min-width: 720px) {
-    .rows li { grid-template-columns: 260px minmax(0, 1fr); gap: var(--s-3); align-items: baseline; }
+    .rows li { grid-template-columns: 240px 92px minmax(0, 1fr); gap: var(--s-3); align-items: baseline; }
   }
   .nm { font-weight: 600; font-size: var(--t-small); }
+  .yrs { font-family: var(--f-mono); font-size: var(--t-meta); color: var(--ink-3); white-space: nowrap; }
   .now { font-size: var(--t-small); color: var(--ink-2); }
   .now.unk { color: var(--ink-3); font-family: var(--f-mono); }
 

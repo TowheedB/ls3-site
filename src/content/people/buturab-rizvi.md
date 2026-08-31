@@ -2,6 +2,9 @@
 name: "Buturab Rizvi"
 role: "msc"
 status: "alumni"
-nowAt: "Assistant Professor, Sheridan College"
+title: "MSc Student"
+startYear: 2013
+gradYear: 2014
 order: 100
+manual: true
 ---

@@ -2,6 +2,9 @@
 name: "Mani Malek Esmaeili"
 role: "postdoc"
 status: "alumni"
-nowAt: "Applied Research Scientist, Meta"
+title: "Postdoctoral Fellow"
+startYear: 2013
+gradYear: 2013
 order: 100
+manual: true
 ---

@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin/
-
-Sitemap: https://ls3lab.example/sitemap-index.xml

@@ -2,6 +2,9 @@
 name: "Alfonz Koncan"
 role: "msc"
 status: "alumni"
-nowAt: "Founder, AKoncan and Associates"
+title: "MSc Student"
+startYear: 2012
+gradYear: 2014
 order: 100
+manual: true
 ---

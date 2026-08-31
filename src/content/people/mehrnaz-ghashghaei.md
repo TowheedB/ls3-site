@@ -2,6 +2,9 @@
 name: "Mehrnaz Ghashghaei"
 role: "msc"
 status: "alumni"
-nowAt: "Technical Lead, TWG at Deloitte"
+title: "MSc Student"
+startYear: 2014
+gradYear: 2016
 order: 100
+manual: true
 ---
