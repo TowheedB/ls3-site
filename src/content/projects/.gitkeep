@@ -1,0 +1,2 @@
+Astro reads project entries from this folder. Kept in git so the build
+finds the directory even while it is empty.

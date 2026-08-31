@@ -1,0 +1,142 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const colors = [
+  ['--ground', 'page ground'], ['--surface', 'panels'], ['--surface-2', 'chips, wells'],
+  ['--rule', 'hairlines'], ['--rule-strong', 'borders'], ['--ink-3', 'muted meta'],
+  ['--ink-2', 'secondary text'], ['--ink', 'body text'],
+  ['--blue', 'primary action'], ['--blue-ink', 'link text'], ['--blue-deep', 'brand'],
+  ['--blue-soft', 'tinted surface'],
+  ['--yellow', 'signal, highlight'], ['--yellow-deep', 'yellow as text'], ['--yellow-soft', 'tinted surface'],
+];
+
+const type = [
+  ['--t-hero', 'Hero, home page only'],
+  ['--t-h1', 'Page title'],
+  ['--t-h2', 'Section heading'],
+  ['--t-h3', 'Sub-heading'],
+  ['--t-body', 'Body copy'],
+  ['--t-small', 'Secondary copy'],
+  ['--t-meta', 'Metadata, mono'],
+  ['--t-label', 'Uppercase labels, mono'],
+];
+---
+
+<BaseLayout title="Styleguide" description="Design tokens and components for the LS3 site. Internal reference.">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Internal</p>
+      <h1>Styleguide</h1>
+      <p class="intro">
+        Every colour, size and component on the site. If something you need is not here, add it
+        to <code>src/styles/tokens.css</code> before using it. Check this page in both themes.
+      </p>
+    </header>
+
+    <section class="s">
+      <div class="section-rule"><h2>Colour</h2></div>
+      <div class="sw-grid">
+        {colors.map(([tok, use]) => (
+          <div class="sw">
+            <div class="chip" style={`background: var(${tok})`}></div>
+            <div class="m"><b>{tok}</b>{use}</div>
+          </div>
+        ))}
+      </div>
+      <p class="warn">
+        <strong>--yellow never carries small text on a light ground.</strong> Use
+        <code>--yellow-deep</code> for that. Yellow is a surface, a rule, and a highlight.
+      </p>
+    </section>
+
+    <section class="s">
+      <div class="section-rule"><h2>Type scale</h2></div>
+      <ul class="tl">
+        {type.map(([tok, use]) => (
+          <li>
+            <span class="lab">{tok}</span>
+            <span class="dm" style={`font-size: var(${tok})`}>Semantic retrieval</span>
+            <span class="use">{use}</span>
+          </li>
+        ))}
+      </ul>
+      <div class="fams">
+        <p style="font-family: var(--f-display)">Literata — display. Headings, pull quotes.</p>
+        <p style="font-family: var(--f-body)">Public Sans — body. Everything you read at length.</p>
+        <p style="font-family: var(--f-mono)">JetBrains Mono — metadata, venues, years, code.</p>
+      </div>
+    </section>
+
+    <section class="s">
+      <div class="section-rule"><h2>Components</h2></div>
+      <div class="demo">
+        <a class="btn btn-primary" href="#">Primary action</a>
+        <a class="btn btn-yellow" href="#">Signal action</a>
+        <a class="btn btn-ghost" href="#">Secondary</a>
+        <span class="tag">Tag</span>
+        <span class="tag is-year num">2026</span>
+      </div>
+      <p class="demo-p">
+        Body copy sits at <code>--t-body</code> with a measure capped at 68 characters. A
+        <span class="mark">yellow highlight</span> is the one flourish, used at most once per
+        screen.
+      </p>
+      <div class="callout">
+        <p class="k">Callout</p>
+        <p>For notices that need to interrupt reading. Yellow top rule, surface ground.</p>
+      </div>
+    </section>
+
+    <section class="s">
+      <div class="section-rule"><h2>Spacing</h2></div>
+      <ul class="sp">
+        {['--s-1', '--s-2', '--s-3', '--s-4', '--s-5', '--s-6'].map((t) => (
+          <li><span class="lab">{t}</span><span class="bar" style={`width: var(${t})`}></span></li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .s { margin-bottom: var(--s-5); }
+
+  .sw-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+  .sw { border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; }
+  .sw .chip { height: 52px; border-bottom: 1px solid var(--rule); }
+  .sw .m { padding: 8px 10px; font-family: var(--f-mono); font-size: 10.5px; color: var(--ink-3); line-height: 1.5; }
+  .sw .m b { display: block; color: var(--ink); font-size: 11px; }
+
+  .warn {
+    margin-top: var(--s-2);
+    font-size: var(--t-small);
+    color: var(--ink-2);
+    border-left: 3px solid var(--yellow);
+    padding-left: var(--s-2);
+    max-width: var(--measure);
+  }
+
+  .tl { display: flex; flex-direction: column; }
+  .tl li {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: baseline;
+  }
+  @media (min-width: 800px) { .tl li { grid-template-columns: 100px minmax(0, 1fr) 190px; gap: var(--s-2); } }
+  .lab { font-family: var(--f-mono); font-size: 11px; color: var(--ink-3); }
+  .dm { font-family: var(--f-display); font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; }
+  .use { font-size: var(--t-meta); color: var(--ink-3); }
+
+  .fams { margin-top: var(--s-3); display: flex; flex-direction: column; gap: 8px; font-size: 18px; }
+
+  .demo { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .demo-p { margin-top: var(--s-3); max-width: var(--measure); }
+  .callout { margin-top: var(--s-3); }
+
+  .sp { display: flex; flex-direction: column; gap: 8px; }
+  .sp li { display: flex; align-items: center; gap: var(--s-2); }
+  .sp .bar { height: 14px; background: var(--blue); border-radius: 2px; display: block; }
+</style>

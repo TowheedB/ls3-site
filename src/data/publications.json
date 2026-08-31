@@ -1,0 +1,4603 @@
+{
+  "publications": [
+    {
+      "id": "2027-masud-immigrant-trajectories",
+      "title": "Emotional and Informational Trajectories of Immigrants: A Longitudinal Study of Reddit Communities",
+      "authors": [
+        "Masud, Zarif",
+        "Paul, Abhijit",
+        "Khan, Naimul",
+        "Ahmed, Syed Ishtiaque",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "21st International Conference on Web and Social Media",
+      "venueShort": "ICWSM 2027",
+      "year": 2027,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-mcconvey-ai-manipulated-evidence",
+      "title": "A Benchmark & Dataset for Detecting AI-Manipulated Visual Evidence in the Court System",
+      "authors": [
+        "McConvey, Kelly",
+        "Ebrahimi, Sajad",
+        "Jamali, Nima",
+        "Mahdavimoghaddam, Jalehsadat",
+        "Sani, Matina Mahdizadeh",
+        "Taranukhin, Maksym",
+        "Zhang, Wentao",
+        "Burkell, Jaquelyn",
+        "Deng, Yuntian",
+        "Eltis, Karen",
+        "Grossman, Maura",
+        "Shwartz, Vered",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "information-people-society",
+        "responsible-information-access"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-le-gender-fair-query-reformulations",
+      "title": "A Large-Scale Dataset for Gender-Fair Query Reformulations",
+      "authors": [
+        "Le, Hai Son",
+        "SeyedSalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access"
+      ]
+    },
+    {
+      "id": "2026-seyedsalehi-gender-bias-regularization",
+      "title": "A Regularization Framework for Gender Bias Mitigation in Dense Neural Rankers",
+      "authors": [
+        "SeyedSalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Machine Learning Journal",
+      "venueShort": "MLJ",
+      "year": 2026,
+      "type": "journal",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-bigdeli-llm-query-reformulation-repro",
+      "title": "A Reproducibility Study of LLM-Based Query Reformulation",
+      "authors": [
+        "Bigdeli, Amin",
+        "Rad, Radin Hamidi",
+        "Le, Hai Son",
+        "Incesu, Mert",
+        "Arabzadeh, Negar",
+        "Clarke, Charles L. A.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ]
+    },
+    {
+      "id": "2026-mahdavimoghaddam-information-workers",
+      "title": "A Social Media Lens on the Needs and Concerns of Information Workers",
+      "authors": [
+        "Mahdavimoghaddam, Jalehsadat",
+        "Saha, Koustuv",
+        "Hui, Julie",
+        "Dillahunt, Tawanna",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM Transactions on Social Computing",
+      "venueShort": "TSC",
+      "year": 2026,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ]
+    },
+    {
+      "id": "2026-khosrojerdi-adversarial-edge-perturbation",
+      "title": "Adversarial Edge Perturbation Framework in Graph-based Retrieval",
+      "authors": [
+        "Khosrojerdi, Amir",
+        "Rad, Radin Hamidi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "48th European Conference on Information Retrieval",
+      "venueShort": "ECIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "robustness-and-adversarial-ir"
+      ]
+    },
+    {
+      "id": "2026-hillis-ai-ethics-education",
+      "title": "AI ethics education: A scoping review of pedagogy, curriculum, and assessment",
+      "authors": [
+        "Hillis, Calvin",
+        "Bhattacharjee, Maushumi",
+        "AlMousawi, Batool",
+        "Martens, Riley",
+        "Eltanahy, Tarik",
+        "Ono, Sara",
+        "Hui, Marcus",
+        "Pham, Ba'",
+        "Swab, Michelle",
+        "Cormack, Gordon V.",
+        "Grossman, Maura R.",
+        "Bagheri, Ebrahim",
+        "Marshall, Zack"
+      ],
+      "venue": "Information Processing and Management",
+      "venueShort": "IP&M",
+      "year": 2026,
+      "type": "journal",
+      "themes": [
+        "responsible-information-access",
+        "information-people-society"
+      ]
+    },
+    {
+      "id": "2026-arabzadeh-llm-research-integrity",
+      "title": "Can LLMs Uphold Research Integrity? Evaluating the Role of LLMs in Peer Review Quality",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Ebrahimi, Sajad",
+        "Sadeghian, Soroush",
+        "Hosseini, Seyed Mohammad",
+        "Daqiq, Alireza",
+        "Le, Hai Son",
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Web Search and Data Mining",
+      "venueShort": "WSDM 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-zhang-dao-labor",
+      "title": "Decentralized in Name Only: The Centralization of DAO Labor",
+      "authors": [
+        "Zhang, Lingling",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM The Web Conference",
+      "venueShort": "TheWebConf 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ]
+    },
+    {
+      "id": "2026-saliminabi-diffusion-team-formation",
+      "title": "Diffusion-Based Generative Modeling for Expert Team Formation",
+      "authors": [
+        "Saliminabi, Mohammad Hossein",
+        "Ebrahimi, Sajad",
+        "Rad, Radin Hamidi",
+        "Androutsos, Dimitrios",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing and Management",
+      "venueShort": "IP&M",
+      "year": 2026,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ]
+    },
+    {
+      "id": "2026-bigdeli-empra",
+      "title": "EMPRA: Embedding Perturbation Rank Attack against Neural Ranking Models",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim",
+        "Clarke, Charles L. A."
+      ],
+      "venue": "ACM Transactions on Information Systems",
+      "venueShort": "TOIS",
+      "year": 2026,
+      "type": "journal",
+      "themes": [
+        "robustness-and-adversarial-ir"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-le-eviqe",
+      "title": "EviQE: Evidence Selection for LLM-Based Query Expansion",
+      "authors": [
+        "Le, Hai Son",
+        "Bigdeli, Amin",
+        "SeyedSalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ]
+    },
+    {
+      "id": "2026-hosseini-failing-forward",
+      "title": "Failing Forward: Understanding Query Failure in Retrieval, Judgment, and Generation",
+      "authors": [
+        "Hosseini, Seyed Mohammad",
+        "Arabzadeh, Negar",
+        "Saliminabi, Mohammad Hossein",
+        "Androutsos, Dimitrios",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "robustness-and-adversarial-ir"
+      ]
+    },
+    {
+      "id": "2026-arabzadeh-doxa-to-logos",
+      "title": "From Doxa to Logos in Scientific Peer Review",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Ebrahimi, Sajad",
+        "Daqiq, Alireza",
+        "Sadeghian, Soroush",
+        "Hosseini, Seyed Mohammad",
+        "Le, Hai Son",
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ]
+    },
+    {
+      "id": "2026-ebrahimi-denoising-diffusion-ltr",
+      "title": "From Noise to Order: Learning to Rank via Denoising Diffusion",
+      "authors": [
+        "Ebrahimi, Sajad",
+        "Mitra, Bhaskar",
+        "Arabzadeh, Negar",
+        "Yuan, Ye",
+        "Wu, Haolun",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM Conference on Innovative Concepts and Theories in Information Retrieval",
+      "venueShort": "ICTIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2026-hosseini-graph-poisoning",
+      "title": "Graph Poisoning for Node Rank Manipulation",
+      "authors": [
+        "Hosseini, Seyed Mohammad",
+        "Rad, Radin Hamidi",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM The Web Conference",
+      "venueShort": "TheWebConf 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "robustness-and-adversarial-ir"
+      ]
+    },
+    {
+      "id": "2026-masud-immigration-narratives",
+      "title": "How Information Retrieval Systems Construct and Amplify Immigration Narratives",
+      "authors": [
+        "Masud, Zarif",
+        "Paul, Abhijit",
+        "Ahmed, Syed Ishtiaque",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "48th European Conference on Information Retrieval",
+      "venueShort": "ECIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "information-people-society",
+        "responsible-information-access"
+      ]
+    },
+    {
+      "id": "2026-amirshahi-judging-a-review",
+      "title": "Judging a Review by its Cover: A Reliability Analysis of LLM-based Peer Review Evaluation Metrics",
+      "authors": [
+        "Amirshahi, Shakiba",
+        "Ebrahimi, Sajad",
+        "Le, Hai Son",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "venueShort": "CIKM 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ]
+    },
+    {
+      "id": "2026-saliminabi-learndcg",
+      "title": "LearnDCG: End-to-End Joint Optimization of Ranker and Loss in Neural Ranking",
+      "authors": [
+        "Saliminabi, Mohammad Hossein",
+        "Androutsos, Dimitrios",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ]
+    },
+    {
+      "id": "2026-bigdeli-led-to-mislead",
+      "title": "Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models",
+      "authors": [
+        "Bigdeli, Amin",
+        "Khosrojerdi, Amir",
+        "Rad, Radin Hamidi",
+        "Zihayat, Morteza",
+        "Clarke, Charles L. A.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM Transactions on Intelligent Systems and Technology",
+      "venueShort": "TIST",
+      "year": 2026,
+      "type": "journal",
+      "themes": [
+        "robustness-and-adversarial-ir"
+      ]
+    },
+    {
+      "id": "2026-daghighfarsoodeh-peerify",
+      "title": "Peerify: Benchmarking Peer-Review Claim Verification",
+      "authors": [
+        "Daghighfarsoodeh, Alireza",
+        "Ebrahimi, Sajad",
+        "Ghorbanpour, Ali",
+        "Sadeghian, Soroush",
+        "Cheraghi, Radin",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "venueShort": "EMNLP 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ]
+    },
+    {
+      "id": "2026-ebrahimi-peeriscope",
+      "title": "PeeriScope: A Multi-Faceted Framework for Evaluating Peer Review Quality",
+      "authors": [
+        "Ebrahimi, Sajad",
+        "Sadeghian, Soroush",
+        "Ghorbanpour, Ali",
+        "Arabzadeh, Negar",
+        "Salamat, Sara",
+        "Hosseini, Seyed Mohammad",
+        "Le, Hai Son",
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM The Web Conference",
+      "venueShort": "TheWebConf 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ]
+    },
+    {
+      "id": "2026-ghorbanpour-peerispect",
+      "title": "Peerispect: Claim Verification in Scientific Peer Reviews",
+      "authors": [
+        "Ghorbanpour, Ali",
+        "Sadeghian, Soroush",
+        "Daqiq, Alireza",
+        "Ebrahimi, Sajad",
+        "Arabzadeh, Negar",
+        "Hosseini, Seyed Mohammad",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ]
+    },
+    {
+      "id": "2026-sadeghian-peerprism",
+      "title": "PeerPrism: Peer Evaluation Expertise vs Review-writing AI",
+      "authors": [
+        "Sadeghian, Soroush",
+        "Daqiq, Alireza",
+        "Cheraghi, Radin",
+        "Ebrahimi, Sajad",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "venueShort": "SIGIR 2026",
+      "year": 2026,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ]
+    },
+    {
+      "id": "2026-hamouni-scholarly-impact",
+      "title": "Predicting Scholarly Impact with Temporal Preference Alignment",
+      "authors": [
+        "Hamouni, Parham",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM Transactions on Intelligent Systems and Technology",
+      "venueShort": "TIST",
+      "year": 2026,
+      "type": "journal",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ]
+    },
+    {
+      "id": "2025-salamat-a-contrastive-neural-disentangleme",
+      "title": "A contrastive neural disentanglement approach for query performance prediction",
+      "authors": [
+        "Salamat, Sara",
+        "Arabzadeh, Negar",
+        "Seyedsalehi, Shirin",
+        "Bigdeli, Amin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Machine Learning",
+      "year": 2025,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2025-bigdeli-adversarial-attacks-against-neural",
+      "title": "Adversarial Attacks against Neural Ranking Models via In-Context Learning",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim",
+        "Clarke, Charles L. A."
+      ],
+      "venue": "SIGIR-AP",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "robustness-and-adversarial-ir",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2025-razavi-benchmarking-prompt-sensitivity-in",
+      "title": "Benchmarking Prompt Sensitivity in Large Language Models",
+      "authors": [
+        "Razavi, Amir Hossein",
+        "Soltangheis, Mina",
+        "Arabzadeh, Negar",
+        "Salamat, Sara",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2025"
+    },
+    {
+      "id": "2025-seyedsalehi-bias",
+      "title": "Bias-Aware Curriculum Sampling for Fair Ranking",
+      "authors": [
+        "Seyedsalehi, Shirin",
+        "Le, Hai Son",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2025"
+    },
+    {
+      "id": "2025-arabzadeh-building-trustworthy-peer-review-q",
+      "title": "Building Trustworthy Peer Review Quality Assessment Systems",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Ebrahimi, Sajad",
+        "Ghorbanpour, Ali",
+        "Sadeghian, Soroush",
+        "Salamat, Sara",
+        "Li, Muhan",
+        "Le, Hai Son",
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2025"
+    },
+    {
+      "id": "2025-khosrojerdi-datasets-for-supervised-adversaria",
+      "title": "Datasets for Supervised Adversarial Attacks on Neural Rankers",
+      "authors": [
+        "Khosrojerdi, Amir",
+        "Bigdeli, Amin",
+        "Hamidi Rad, Radin",
+        "Zihayat, Morteza",
+        "Clarke, Charles L. A.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "robustness-and-adversarial-ir",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2025"
+    },
+    {
+      "id": "2025-ebrahimi-exharmony",
+      "title": "exHarmony: Authorship and Citations for Benchmarking the Reviewer Assignment Problem",
+      "authors": [
+        "Ebrahimi, Sajad",
+        "Salamat, Sara",
+        "Arabzadeh, Negar",
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2025"
+    },
+    {
+      "id": "2025-seyedsalehi-gender-disentangled-representation",
+      "title": "Gender disentangled representation learning in neural rankers",
+      "authors": [
+        "Seyedsalehi, Shirin",
+        "Salamat, Sara",
+        "Arabzadeh, Negar",
+        "Ebrahimi, Sajad",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Machine Learning",
+      "year": 2025,
+      "type": "journal",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2025-khodabakhsh-learning-to-rank-under-uncertainty",
+      "title": "Learning to rank under uncertainty: a robust neural approach",
+      "authors": [
+        "Khodabakhsh, Maryam",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Knowledge and Information Systems",
+      "year": 2025,
+      "type": "journal",
+      "themes": [
+        "robustness-and-adversarial-ir",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2025-saliminabi-llm",
+      "title": "LLM-as-a-Judge in Entity Retrieval: Assessing Explicit and Implicit Relevance",
+      "authors": [
+        "Saliminabi, Mohammad Hossein",
+        "Arabzadeh, Negar",
+        "Hosseini, Seyed Mohammad",
+        "Androutsos, Dimitrios",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2025"
+    },
+    {
+      "id": "2025-arabzadeh-query-performance-prediction",
+      "title": "Query Performance Prediction: Theory, Techniques and Applications",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Meng, Chuan",
+        "Aliannejadi, Mohammad",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Web Search and Data Mining",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "WSDM 2025"
+    },
+    {
+      "id": "2025-soleimany-reinforcement-learning-for-effecti",
+      "title": "Reinforcement Learning for Effective Few-Shot Ranking",
+      "authors": [
+        "Soleimany, Shiva",
+        "Ebrahimi, Sajad",
+        "Seyedsalehi, Shirin",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2025"
+    },
+    {
+      "id": "2025-bagheri-responsible-ai-day",
+      "title": "Responsible AI Day",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh",
+        "Hillis, Calvin",
+        "Rabbany, Reihaneh",
+        "Cohen, Robin",
+        "Fung, Benjamin C. M.",
+        "Gambs, Sébastien"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "year": 2025,
+      "type": "workshop",
+      "themes": [
+        "responsible-information-access"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "KDD 2025"
+    },
+    {
+      "id": "2025-dara-retrieval",
+      "title": "Retrieval-Augmented Neural Team Formation",
+      "authors": [
+        "Dara, Mohammad",
+        "Hamidi Rad, Radin",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2025"
+    },
+    {
+      "id": "2025-saleminezhad-robust-query-performance-predictio",
+      "title": "Robust query performance prediction for dense retrievers via adaptive disturbance generation",
+      "authors": [
+        "Saleminezhad, Abbas",
+        "Arabzadeh, Negar",
+        "Hamidi Rad, Radin",
+        "Beheshti, Soosan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Machine Learning",
+      "year": 2025,
+      "type": "journal",
+      "themes": [
+        "robustness-and-adversarial-ir",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2025-hamidi-rad-roksana",
+      "title": "ROKSANA: An Open-Source Toolkit for Robust Graph-Based Keyword Search",
+      "authors": [
+        "Hamidi Rad, Radin",
+        "Khosrojerdi, Amir",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "robustness-and-adversarial-ir",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2025"
+    },
+    {
+      "id": "2025-ebrahimi-rottenreviews",
+      "title": "RottenReviews: Benchmarking Review Quality with Human and LLM-Based Judgments",
+      "authors": [
+        "Ebrahimi, Sajad",
+        "Sadeghian, Soroush",
+        "Ghorbanpour, Ali",
+        "Arabzadeh, Negar",
+        "Salamat, Sara",
+        "Li, Muhan",
+        "Le, Hai Son",
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2025"
+    },
+    {
+      "id": "2025-zhang-say-the-task-build-the-team",
+      "title": "Say the Task, Build the Team: Prompt-Based Team Formation",
+      "authors": [
+        "Zhang, Lingling",
+        "Hamidi Rad, Radin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ASONAM 2025"
+    },
+    {
+      "id": "2025-hillis-the-role-of-protocol-papers-scopin",
+      "title": "The Role of Protocol Papers, Scoping Reviews, and Systematic Reviews in Responsible AI Research",
+      "authors": [
+        "Hillis, Calvin",
+        "Bagheri, Ebrahim",
+        "Marshall, Zack"
+      ],
+      "venue": "IEEE Technology and Society Magazine",
+      "year": 2025,
+      "type": "journal",
+      "themes": [
+        "responsible-information-access",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2025-seyedsalehi-understanding-and-mitigating-gende",
+      "title": "Understanding and Mitigating Gender Bias in Information Retrieval Systems",
+      "authors": [
+        "Seyedsalehi, Shirin",
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "AlMousawi, Batool",
+        "Marshall, Zack",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Foundations and Trends in Information Retrieval",
+      "year": 2025,
+      "type": "journal",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2025-arabzadeh-vap3",
+      "title": "VAP3: Variation-Aware Prompt Performance Prediction",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2025,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2025"
+    },
+    {
+      "id": "2024-hamidi-rad-a-variational-neural-architecture-",
+      "title": "A Variational Neural Architecture for Skill-based Team Formation",
+      "authors": [
+        "Hamidi Rad, Radin",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim",
+        "Kargar, Mehdi",
+        "Srivastava, Divesh",
+        "Szlichta, Jaroslaw"
+      ],
+      "venue": "ACM Transactions on Information Systems",
+      "year": 2024,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "TOIS"
+    },
+    {
+      "id": "2024-saleminezhad-context",
+      "title": "Context-Aware Query Term Difficulty Estimation for Performance Prediction",
+      "authors": [
+        "Saleminezhad, Abbas",
+        "Arabzadeh, Negar",
+        "Beheshti, Soosan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2024"
+    },
+    {
+      "id": "2024-hosseini-enhanced-retrieval-effectiveness-t",
+      "title": "Enhanced Retrieval Effectiveness through Selective Query Generation",
+      "authors": [
+        "Hosseini, Seyed Mohammad",
+        "Arabzadeh, Negar",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2024"
+    },
+    {
+      "id": "2024-ebrahimi-estimating-query-performance-throu",
+      "title": "Estimating Query Performance Through Rich Contextualized Query Representations",
+      "authors": [
+        "Ebrahimi, Sajad",
+        "Khodabakhsh, Maryam",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2024"
+    },
+    {
+      "id": "2024-bigdeli-evaluating-relative-retrieval-effe",
+      "title": "Evaluating Relative Retrieval Effectiveness with Normalized Residual Gain",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim",
+        "Clarke, Charles L. A."
+      ],
+      "venue": "SIGIR-AP",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2024-etemadi-it-takes-a-team-to-triumph",
+      "title": "It Takes a Team to Triumph: Collaborative Expert Finding in Community QA Networks",
+      "authors": [
+        "Etemadi, Roohollah",
+        "Zihayat, Morteza",
+        "Feng, Kuan",
+        "Adelman, Jason",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "SIGIR-AP",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2024-arabzadeh-laque",
+      "title": "LaQuE: Enabling Entity Search at Scale",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Bigdeli, Amin",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2024"
+    },
+    {
+      "id": "2024-bigdeli-learning-to-jointly-transform-and-",
+      "title": "Learning to Jointly Transform and Rank Difficult Queries",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2024"
+    },
+    {
+      "id": "2024-zarrinkalam-predicting-users-future-interests-",
+      "title": "Predicting users' future interests on social networks: A reference framework",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Alizadeh Noughabi, Havva",
+        "Noorian, Zeinab",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2024,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2024-arabzadeh-query-performance-prediction",
+      "title": "Query Performance Prediction: From Fundamentals to Advanced Techniques",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Meng, Chuan",
+        "Aliannejadi, Mohammad",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2024"
+    },
+    {
+      "id": "2024-arabzadeh-query-performance-prediction-2",
+      "title": "Query Performance Prediction: Techniques and Applications in Modern Information Retrieval",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Meng, Chuan",
+        "Aliannejadi, Mohammad",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "SIGIR-AP",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2024-arabzadeh-reviewerly",
+      "title": "Reviewerly: Modeling the Reviewer Assignment Task as an Information Retrieval Problem",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Ebrahimi, Sajad",
+        "Salamat, Sara",
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2024,
+      "type": "conference",
+      "themes": [
+        "ai-and-scientific-integrity",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2024"
+    },
+    {
+      "id": "2024-mirlohi-social-alignment-contagion-in-onli",
+      "title": "Social Alignment Contagion in Online Social Networks",
+      "authors": [
+        "Mirlohi, Amin",
+        "Mahdavimoghaddam, Jalehsadat",
+        "Jovanovic, Jelena",
+        "Al-Obeidat, Feras N.",
+        "Khani, Mehdi",
+        "Ghorbani, Ali A.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IEEE Transactions on Computational Social Systems",
+      "year": 2024,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2023-arabzadeh-a-self",
+      "title": "A self-supervised language model selection strategy for biomedical question answering",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Journal of Biomedical Informatics",
+      "year": 2023,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2023-bigdeli-de",
+      "title": "De-biasing Relevance Judgements for Fair Ranking",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Seyedsalehi, Shirin",
+        "Mitra, Bhaskar",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2023"
+    },
+    {
+      "id": "2023-salamat-don-t-raise-your-voice-improve-you",
+      "title": "Don't Raise Your Voice, Improve Your Argument: Learning to Retrieve Convincing Arguments",
+      "authors": [
+        "Salamat, Sara",
+        "Arabzadeh, Negar",
+        "Bigdeli, Amin",
+        "Seyedsalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2023"
+    },
+    {
+      "id": "2023-nguyen-dyhnet",
+      "title": "DyHNet: Learning dynamic heterogeneous network representations",
+      "authors": [
+        "Nguyen, Hoang",
+        "Hamidi Rad, Radin",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Sciences",
+      "year": 2023,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2023-etemadi-embedding",
+      "title": "Embedding-based team formation for community question answering",
+      "authors": [
+        "Etemadi, Roohollah",
+        "Zihayat, Morteza",
+        "Feng, Kuan",
+        "Adelman, Jason",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Sciences",
+      "year": 2023,
+      "type": "journal",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2023-hamidi-rad-learning-heterogeneous-subgraph-re",
+      "title": "Learning heterogeneous subgraph representations for team discovery",
+      "authors": [
+        "Hamidi Rad, Radin",
+        "Nguyen, Hoang",
+        "Al-Obeidat, Feras N.",
+        "Bagheri, Ebrahim",
+        "Kargar, Mehdi",
+        "Srivastava, Divesh",
+        "Szlichta, Jaroslaw",
+        "Zarrinkalam, Fattane"
+      ],
+      "venue": "Information Retrieval Journal",
+      "year": 2023,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2023-salamat-learning-query",
+      "title": "Learning Query-Space Document Representations for High-Recall Retrieval",
+      "authors": [
+        "Salamat, Sara",
+        "Arabzadeh, Negar",
+        "Zarrinkalam, Fattane",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2023"
+    },
+    {
+      "id": "2023-khodabakhsh-learning-to-rank-and-predict",
+      "title": "Learning to rank and predict: Multi-task learning for ad hoc retrieval and query performance prediction",
+      "authors": [
+        "Khodabakhsh, Maryam",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Sciences",
+      "year": 2023,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2023-vo-neural-ad",
+      "title": "Neural Ad-Hoc Retrieval Meets Open Information Extraction",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Zarrinkalam, Fattane",
+        "Pham, Ba",
+        "Arabzadeh, Negar",
+        "Salamat, Sara",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2023"
+    },
+    {
+      "id": "2023-salamat-neural-disentanglement-of-query-di",
+      "title": "Neural Disentanglement of Query Difficulty and Semantics",
+      "authors": [
+        "Salamat, Sara",
+        "Arabzadeh, Negar",
+        "Seyedsalehi, Shirin",
+        "Bigdeli, Amin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2023"
+    },
+    {
+      "id": "2023-arabzadeh-noisy-perturbations-for-estimating",
+      "title": "Noisy Perturbations for Estimating Query Difficulty in Dense Retrievers",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Hamidi Rad, Radin",
+        "Khodabakhsh, Maryam",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "robustness-and-adversarial-ir",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2023"
+    },
+    {
+      "id": "2023-arabzadeh-quantifying-ranker-coverage-of-dif",
+      "title": "Quantifying Ranker Coverage of Different Query Subspaces",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Bigdeli, Amin",
+        "Hamidi Rad, Radin",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2023"
+    },
+    {
+      "id": "2023-bagheri-report-on-the-8th-international-wo",
+      "title": "Report on the 8th International Workshop on Mining Actionable Insights from Social Networks (MAISoN'22), Special Edition on Mental Health and Social Media at TheWebConf 2022",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Inkpen, Diana",
+        "Yang, Christopher C.",
+        "Zarrinkalam, Fattane"
+      ],
+      "venue": "SIGIR Forum",
+      "year": 2023,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2023-bigdeli-understanding-and-mitigating-gende",
+      "title": "Understanding and Mitigating Gender Bias in Information Retrieval Systems",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Seyedsalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2023,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2023"
+    },
+    {
+      "id": "2022-bigdeli-a-light",
+      "title": "A Light-Weight Strategy for Restraining Gender Biases in Neural Rankers",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Seyedsalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2022,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2022"
+    },
+    {
+      "id": "2022-hamidi-rad-a-neural-approach-to-forming-coher",
+      "title": "A Neural Approach to Forming Coherent Teams in Collaboration Networks",
+      "authors": [
+        "Hamidi Rad, Radin",
+        "Seyedsalehi, Shirin",
+        "Kargar, Mehdi",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Extending Database Technology",
+      "year": 2022,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "EDBT 2022"
+    },
+    {
+      "id": "2022-hosseini-a-systemic-functional-linguistics-",
+      "title": "A systemic functional linguistics approach to implicit entity recognition in tweets",
+      "authors": [
+        "Hosseini, Hawre",
+        "Mansouri, Mehran",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2022,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2022-seyedsalehi-addressing-gender",
+      "title": "Addressing Gender-related Performance Disparities in Neural Rankers",
+      "authors": [
+        "Seyedsalehi, Shirin",
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2022,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2022"
+    },
+    {
+      "id": "2022-seyedsalehi-bias",
+      "title": "Bias-aware Fair Neural Ranking for Addressing Stereotypical Gender Biases",
+      "authors": [
+        "Seyedsalehi, Shirin",
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Mitra, Bhaskar",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Extending Database Technology",
+      "year": 2022,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "EDBT 2022"
+    },
+    {
+      "id": "2022-mahdavimoghaddam-exploring-the-utility-of-social-co",
+      "title": "Exploring the Utility of Social Content for Understanding Future In-Demand Skills",
+      "authors": [
+        "Mahdavimoghaddam, Jalehsadat",
+        "Bahuguna, Ayush",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "year": 2022,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CSCW 2022"
+    },
+    {
+      "id": "2022-sorkhani-feature",
+      "title": "Feature-based question routing in community question answering platforms",
+      "authors": [
+        "Sorkhani, Soroosh",
+        "Etemadi, Roohollah",
+        "Bigdeli, Amin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Sciences",
+      "year": 2022,
+      "type": "journal",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2022-bagheri-foreword-to-the-special-issue-on-d",
+      "title": "Foreword to the special issue on dis/misinformation mining from social media",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Liu, Huan",
+        "Shu, Kai",
+        "Zarrinkalam, Fattane"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2022,
+      "type": "journal",
+      "themes": [
+        "robustness-and-adversarial-ir",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2022-bigdeli-gender-fairness-in-information-ret",
+      "title": "Gender Fairness in Information Retrieval Systems",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Seyedsalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2022,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2022"
+    },
+    {
+      "id": "2022-bagheri-maison-22",
+      "title": "MAISoN'22: 8th International Workshop on Mining Actionable Insights from Social Networks, Special Edition on Mental Health and Social Media",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Inkpen, Diana",
+        "Yang, Christopher C.",
+        "Zarrinkalam, Fattane"
+      ],
+      "venue": "The Web Conference (Companion Volume)",
+      "year": 2022,
+      "type": "workshop",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "WWW 2022"
+    },
+    {
+      "id": "2022-klasnja-on-the-characteristics-of-ranking",
+      "title": "On the Characteristics of Ranking-based Gender Bias Measures",
+      "authors": [
+        "Klasnja, Anja",
+        "Arabzadeh, Negar",
+        "Mehrvarz, Mahbod",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM Web Science Conference",
+      "year": 2022,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "WebSci 2022"
+    },
+    {
+      "id": "2022-azimy-preventing-proof",
+      "title": "Preventing proof-of-work mining attacks",
+      "authors": [
+        "Azimy, Hamid",
+        "Ghorbani, Ali A.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Sciences",
+      "year": 2022,
+      "type": "journal",
+      "themes": [
+        "robustness-and-adversarial-ir"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2022-nguyen-pydhnet",
+      "title": "PyDHNet: A Python Library for Dynamic Heterogeneous Network Representation Learning and Evaluation",
+      "authors": [
+        "Nguyen, Hoang",
+        "Hamidi Rad, Radin",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2022,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2022"
+    },
+    {
+      "id": "2022-khodabakhsh-qualitative-measures-for-ad-hoc-ta",
+      "title": "Qualitative measures for ad hoc table retrieval",
+      "authors": [
+        "Khodabakhsh, Maryam",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Sciences",
+      "year": 2022,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2022-hamidi-rad-subgraph-representation-learning-f",
+      "title": "Subgraph Representation Learning for Team Mining",
+      "authors": [
+        "Hamidi Rad, Radin",
+        "Bagheri, Ebrahim",
+        "Kargar, Mehdi",
+        "Srivastava, Divesh",
+        "Szlichta, Jaroslaw"
+      ],
+      "venue": "ACM Web Science Conference",
+      "year": 2022,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "WebSci 2022"
+    },
+    {
+      "id": "2021-fani-an-extensible-toolkit-of-query-ref",
+      "title": "An Extensible Toolkit of Query Refinement Methods and Gold Standard Dataset Generation",
+      "authors": [
+        "Fani, Hossein",
+        "Tamannaee, Mahtab",
+        "Zarrinkalam, Fattane",
+        "Samouh, Jamil",
+        "Paydar, Samad",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2021"
+    },
+    {
+      "id": "2021-arabzadeh-bert",
+      "title": "BERT-QPP: Contextualized Pre-trained transformers for Query Performance Prediction",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Khodabakhsh, Maryam",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2021"
+    },
+    {
+      "id": "2021-etemadi-collaborative-experts-discovery-in",
+      "title": "Collaborative Experts Discovery in Social Coding Platforms",
+      "authors": [
+        "Etemadi, Roohollah",
+        "Zihayat, Morteza",
+        "Feng, Kuan",
+        "Adelman, Jason",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2021"
+    },
+    {
+      "id": "2021-bigdeli-exploring-gender-biases-in-informa",
+      "title": "Exploring Gender Biases in Information Retrieval Relevance Judgement Datasets",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2021"
+    },
+    {
+      "id": "2021-pourgholamali-learning-product-representations-f",
+      "title": "Learning product representations for generating reviews for cold products",
+      "authors": [
+        "Pourgholamali, Fatemeh",
+        "Kahani, Mohsen",
+        "Noorian, Zeinab",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Knowledge-Based Systems",
+      "year": 2021,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2021-hosseini-learning-to-rank-implicit-entities",
+      "title": "Learning to rank implicit entities on Twitter",
+      "authors": [
+        "Hosseini, Hawre",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2021,
+      "type": "journal",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2021-arabzadeh-matches-made-in-heaven",
+      "title": "Matches Made in Heaven: Toolkit and Large-Scale Datasets for Supervised Query Reformulation",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Bigdeli, Amin",
+        "Seyedsalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2021"
+    },
+    {
+      "id": "2021-arabzadeh-ms-marco-chameleons",
+      "title": "MS MARCO Chameleons: Challenging the MS MARCO Leaderboard with Extremely Obstinate Queries",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Mitra, Bhaskar",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2021,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2021"
+    },
+    {
+      "id": "2021-mirlohi-falavarjani-on-the-causal-relation-between-rea",
+      "title": "On the causal relation between real world activities and emotional expressions of social media users",
+      "authors": [
+        "Mirlohi Falavarjani, Seyed Amin",
+        "Jovanovic, Jelena",
+        "Fani, Hossein",
+        "Ghorbani, Ali A.",
+        "Noorian, Zeinab",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Journal of the Association for Information Science and Technology",
+      "year": 2021,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2021-mahdavimoghaddam-on-the-congruence-between-online-s",
+      "title": "On the Congruence Between Online Social Content and Future IT Skill Demand",
+      "authors": [
+        "Mahdavimoghaddam, Jalehsadat",
+        "Krishnaswamy, Niranjan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "year": 2021,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CSCW 2021"
+    },
+    {
+      "id": "2021-bigdeli-on-the-orthogonality-of-bias-and-u",
+      "title": "On the Orthogonality of Bias and Utility in Ad hoc Retrieval",
+      "authors": [
+        "Bigdeli, Amin",
+        "Arabzadeh, Negar",
+        "Seyedsalehi, Shirin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "responsible-information-access",
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2021"
+    },
+    {
+      "id": "2021-etemadi-openatthetrl",
+      "title": "OpenAttHetRL: An Open Source Toolkit for Attributed Heterogeneous Network Representation Learning",
+      "authors": [
+        "Etemadi, Roohollah",
+        "Zihayat, Morteza",
+        "Feng, Kuan",
+        "Adelman, Jason",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2021,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2021"
+    },
+    {
+      "id": "2021-hamidi-rad-pytfl",
+      "title": "PyTFL: A Python-based Neural Team Formation Toolkit",
+      "authors": [
+        "Hamidi Rad, Radin",
+        "Mitha, Aabid",
+        "Fani, Hossein",
+        "Kargar, Mehdi",
+        "Szlichta, Jaroslaw",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2021"
+    },
+    {
+      "id": "2021-arabzadeh-query-performance-prediction-throu",
+      "title": "Query Performance Prediction Through Retrieval Coherency",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Bigdeli, Amin",
+        "Zihayat, Morteza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2021"
+    },
+    {
+      "id": "2021-hamidi-rad-retrieving-skill",
+      "title": "Retrieving Skill-Based Teams from Collaboration Networks",
+      "authors": [
+        "Hamidi Rad, Radin",
+        "Bagheri, Ebrahim",
+        "Kargar, Mehdi",
+        "Srivastava, Divesh",
+        "Szlichta, Jaroslaw"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2021,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2021"
+    },
+    {
+      "id": "2021-khodabakhsh-semantics",
+      "title": "Semantics-enabled query performance prediction for ad hoc table retrieval",
+      "authors": [
+        "Khodabakhsh, Maryam",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2021,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2021-bagheri-the-6th-international-workshop-on-",
+      "title": "The 6th International Workshop on Mining Actionable Insights from Social Networks (MAISoN 2021): Special Edition on Healthcare Social Analytics",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Inkpen, Diana",
+        "Yang, Christopher C.",
+        "Zarrinkalam, Fattane"
+      ],
+      "venue": "ICWSM Workshops",
+      "year": 2021,
+      "type": "workshop",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ICWSM 2021"
+    },
+    {
+      "id": "2020-pourgholamali-a-neural-graph-embedding-approach-",
+      "title": "A neural graph embedding approach for selecting review sentences",
+      "authors": [
+        "Pourgholamali, Fatemeh",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Electronic Commerce Research and Applications",
+      "year": 2020,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2020-vo-extracting-temporal-and-causal-rel",
+      "title": "Extracting temporal and causal relations based on event networks",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Al-Obeidat, Feras N.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2020,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2020-zarrinkalam-extracting-mining-and-predicting-u",
+      "title": "Extracting, Mining and Predicting Users' Interests from Social Media",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Faralli, Stefano",
+        "Piao, Guangyuan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Foundations and Trends in Information Retrieval",
+      "year": 2020,
+      "type": "journal",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2020-armentano-foreword-to-the-special-issue-on-m-2",
+      "title": "Foreword to the special issue on mining actionable insights from online user generated content",
+      "authors": [
+        "Armentano, Marcelo Gabriel",
+        "Bagheri, Ebrahim",
+        "Kiseleva, Julia",
+        "Takes, Frank W."
+      ],
+      "venue": "Information Retrieval Journal",
+      "year": 2020,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2020-armentano-foreword-to-the-special-issue-on-m",
+      "title": "Foreword to the special issue on mining actionable insights from social networks",
+      "authors": [
+        "Armentano, Marcelo Gabriel",
+        "Bagheri, Ebrahim",
+        "Takes, Frank W.",
+        "Yannibelli, Virginia"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2020,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2020-arabzadeh-neural-embedding",
+      "title": "Neural embedding-based specificity metrics for pre-retrieval query performance prediction",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Zarrinkalam, Fattane",
+        "Jovanovic, Jelena",
+        "Al-Obeidat, Feras N.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2020,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2020-khodabakhsh-predicting-future-personal-life-ev",
+      "title": "Predicting future personal life events on twitter via recurrent neural networks",
+      "authors": [
+        "Khodabakhsh, Maryam",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Journal of Intelligent Information Systems",
+      "year": 2020,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2020-fani-user-community-detection-via-embed",
+      "title": "User community detection via embedding of social network structure and temporal content",
+      "authors": [
+        "Fani, Hossein",
+        "Jiang, Eric",
+        "Bagheri, Ebrahim",
+        "Al-Obeidat, Feras N.",
+        "Du, Weichang",
+        "Kargar, Mehdi"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2020,
+      "type": "journal",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2019-vo-extracting-temporal-event-relation",
+      "title": "Extracting Temporal Event Relations Based on Event Networks",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2019,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2019"
+    },
+    {
+      "id": "2019-zarrinkalam-extracting-mining-and-predicting-u",
+      "title": "Extracting, Mining and Predicting Users' Interests from Social Networks",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "year": 2019,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SIGIR 2019"
+    },
+    {
+      "id": "2019-vo-feature",
+      "title": "Feature-enriched matrix factorization for relation extraction",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2019,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2019-arabzadeh-geometric-estimation-of-specificit",
+      "title": "Geometric Estimation of Specificity within Embedding Spaces",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Zarrinkalam, Fattane",
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2019,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2019"
+    },
+    {
+      "id": "2019-hosseini-implicit-entity-linking-in-tweets",
+      "title": "Implicit entity linking in tweets: An ad-hoc retrieval approach",
+      "authors": [
+        "Hosseini, Hawre",
+        "Nguyen, Tam T.",
+        "Wu, Jimmy",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Applied Ontology",
+      "year": 2019,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2019-armentano-maison-2019",
+      "title": "MAISoN 2019: The 3rd International Workshop on Mining Actionable Insights from Social Networks",
+      "authors": [
+        "Armentano, Marcelo Gabriel",
+        "Bagheri, Ebrahim",
+        "Kiseleva, Julia",
+        "Takes, Frank W."
+      ],
+      "venue": "ACM International Conference on the Theory of Information Retrieval",
+      "year": 2019,
+      "type": "workshop",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ICTIR 2019"
+    },
+    {
+      "id": "2019-pourali-neural-embedding-features-for-poin",
+      "title": "Neural embedding features for point-of-interest recommendation",
+      "authors": [
+        "Pourali, Alireza",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "year": 2019,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ASONAM 2019"
+    },
+    {
+      "id": "2019-lashkari-neural-embedding",
+      "title": "Neural embedding-based indices for semantic search",
+      "authors": [
+        "Lashkari, Fatemeh",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2019,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2019-mirlohi-falavarjani-on-the-causal-relation-between-use",
+      "title": "On the causal relation between users' real-world activities and their affective processes",
+      "authors": [
+        "Mirlohi Falavarjani, Seyed Amin",
+        "Bagheri, Ebrahim",
+        "Chou, Ssu Yu Zoe",
+        "Jovanovic, Jelena",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "year": 2019,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ASONAM 2019"
+    },
+    {
+      "id": "2019-milani-fard-relationship-prediction-in-dynamic",
+      "title": "Relationship Prediction in Dynamic Heterogeneous Information Networks",
+      "authors": [
+        "Milani Fard, Amin",
+        "Bagheri, Ebrahim",
+        "Wang, Ke"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2019,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2019"
+    },
+    {
+      "id": "2019-zarrinkalam-social-user-interest-mining",
+      "title": "Social User Interest Mining: Methods and Applications",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "year": 2019,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "KDD 2019"
+    },
+    {
+      "id": "2019-pourmasoumi-the-evolutionary-composition-of-de",
+      "title": "The evolutionary composition of desirable execution traces from event logs",
+      "authors": [
+        "Pourmasoumi, Asef",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Future Generation Computer Systems",
+      "year": 2019,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2019-mirlohi-falavarjani-the-reflection-of-offline-activiti",
+      "title": "The reflection of offline activities on users' online social behavior: An observational study",
+      "authors": [
+        "Mirlohi Falavarjani, Seyed Amin",
+        "Zarrinkalam, Fattane",
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2019,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2019-zarrinkalam-user-interest-prediction-over-futu",
+      "title": "User interest prediction over future unobserved topics on social networks",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Retrieval Journal",
+      "year": 2019,
+      "type": "journal",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-bashari-automated-composition-and-optimiza",
+      "title": "Automated composition and optimization of services for variability-intensive domains",
+      "authors": [
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2018,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-poots-automatic-annotation-of-text-with-",
+      "title": "Automatic Annotation of Text with Pictures",
+      "authors": [
+        "Poots, J. Kent",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IT Professional",
+      "year": 2018,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-biletskiy-building-a-business-domain-meta",
+      "title": "Building a business domain meta-ontology for information pre-processing",
+      "authors": [
+        "Biletskiy, Yevgen",
+        "Brown, J. Anthony",
+        "Ranganathan, Girish R.",
+        "Bagheri, Ebrahim",
+        "Akbari, Ismail"
+      ],
+      "venue": "Information Processing Letters",
+      "year": 2018,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-arabzadeh-causal-dependencies-for-future-int",
+      "title": "Causal Dependencies for Future Interest Prediction on Twitter",
+      "authors": [
+        "Arabzadeh, Negar",
+        "Fani, Hossein",
+        "Zarrinkalam, Fattane",
+        "Navivala, Ahmed",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2018,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2018"
+    },
+    {
+      "id": "2018-khodabakhsh-detecting-life-events-from-twitter",
+      "title": "Detecting life events from twitter based on temporal semantic features",
+      "authors": [
+        "Khodabakhsh, Maryam",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim",
+        "Noorian, Zeinab"
+      ],
+      "venue": "Knowledge-Based Systems",
+      "year": 2018,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-feng-entity-linking-of-tweets-based-on-",
+      "title": "Entity linking of tweets based on dominant entity candidates",
+      "authors": [
+        "Feng, Yue",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim",
+        "Fani, Hossein",
+        "Al-Obeidat, Feras N."
+      ],
+      "venue": "Social Network Analysis and Mining",
+      "year": 2018,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-fani-finding-diachronic-like",
+      "title": "Finding Diachronic Like-Minded Users",
+      "authors": [
+        "Fani, Hossein",
+        "Bagheri, Ebrahim",
+        "Zarrinkalam, Fattane",
+        "Zhao, Xin",
+        "Du, Weichang"
+      ],
+      "venue": "Computational Intelligence",
+      "year": 2018,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-bagheri-foreword-to-the-special-issue-on-m",
+      "title": "Foreword to the special issue on mining actionable insights from social networks",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh",
+        "Katakis, Ioannis",
+        "Noorian, Zeinab"
+      ],
+      "venue": "Information Systems",
+      "year": 2018,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-bagheri-impact-of-document-representation-",
+      "title": "Impact of Document Representation on Neural Ad hoc Retrieval",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh",
+        "Al-Obeidat, Feras N."
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2018,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2018"
+    },
+    {
+      "id": "2018-hosseini-implicit-entity-linking-through-ad",
+      "title": "Implicit Entity Linking Through Ad-Hoc Retrieval",
+      "authors": [
+        "Hosseini, Hawre",
+        "Nguyen, Tam T.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
+      "year": 2018,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ASONAM 2018"
+    },
+    {
+      "id": "2018-zarrinkalam-mining-user-interests-over-active-",
+      "title": "Mining user interests over active topics on social networks",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2018,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-bagheri-neural-word-and-entity-embeddings-",
+      "title": "Neural word and entity embeddings for ad hoc retrieval",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh",
+        "Al-Obeidat, Feras N."
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2018,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-pourali-point",
+      "title": "Point-of-Interest Recommendation Using Heterogeneous Link Prediction",
+      "authors": [
+        "Pourali, Alireza",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Extending Database Technology",
+      "year": 2018,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "EDBT 2018"
+    },
+    {
+      "id": "2018-khodabakhsh-predicting-personal-life-events-fr",
+      "title": "Predicting Personal Life Events from Streaming Social Content",
+      "authors": [
+        "Khodabakhsh, Maryam",
+        "Fani, Hossein",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2018,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2018"
+    },
+    {
+      "id": "2018-keikha-query-expansion-using-pseudo-relev",
+      "title": "Query expansion using pseudo relevance feedback on wikipedia",
+      "authors": [
+        "Keikha, Andisheh",
+        "Ensan, Faezeh",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Journal of Intelligent Information Systems",
+      "year": 2018,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-bashari-self",
+      "title": "Self-adaptation of service compositions through product line reconfiguration",
+      "authors": [
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2018,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-vo-self",
+      "title": "Self-training on refined clause patterns for relation extraction",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Processing & Management",
+      "year": 2018,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2018-fani-stopword-detection-for-streaming-c",
+      "title": "Stopword Detection for Streaming Content",
+      "authors": [
+        "Fani, Hossein",
+        "Bashari, Masoud",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim",
+        "Al-Obeidat, Feras N."
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2018,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2018"
+    },
+    {
+      "id": "2018-trikha-topic",
+      "title": "Topic-Association Mining for User Interest Detection",
+      "authors": [
+        "Trikha, Anil Kumar",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2018,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2018"
+    },
+    {
+      "id": "2018-cuzzola-umls-to-dbpedia-link-discovery-thr",
+      "title": "UMLS to DBPedia link discovery through circular resolution",
+      "authors": [
+        "Cuzzola, John",
+        "Bagheri, Ebrahim",
+        "Jovanovic, Jelena"
+      ],
+      "venue": "Journal of the American Medical Informatics Association",
+      "year": 2018,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-ensan-an-empirical-study-of-embedding-fe",
+      "title": "An Empirical Study of Embedding Features in Learning to Rank",
+      "authors": [
+        "Ensan, Faezeh",
+        "Bagheri, Ebrahim",
+        "Zouaq, Amal",
+        "Kouznetsov, Alexandre"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2017,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2017"
+    },
+    {
+      "id": "2017-pourmasoumi-business-process-mining",
+      "title": "Business process mining",
+      "authors": [
+        "Pourmasoumi, Asef",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-fani-community-detection-in-social-netw",
+      "title": "Community detection in social networks",
+      "authors": [
+        "Fani, Hossein",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "year": 2017,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-ensan-document-retrieval-model-through-s",
+      "title": "Document Retrieval Model Through Semantic Linking",
+      "authors": [
+        "Ensan, Faezeh",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Web Search and Data Mining",
+      "year": 2017,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "WSDM 2017"
+    },
+    {
+      "id": "2017-bashari-dynamic-software-product-line-engi",
+      "title": "Dynamic Software Product Line Engineering: A Reference Framework",
+      "authors": [
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "International Journal of Software Engineering and Knowledge Engineering",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-lashkari-efficient-indexing-for-semantic-se",
+      "title": "Efficient indexing for semantic search",
+      "authors": [
+        "Lashkari, Fatemeh",
+        "Ensan, Faezeh",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Expert Systems with Applications",
+      "year": 2017,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-pourgholamali-embedding-unstructured-side-inform",
+      "title": "Embedding unstructured side information in product recommendation",
+      "authors": [
+        "Pourgholamali, Fatemeh",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim",
+        "Noorian, Zeinab"
+      ],
+      "venue": "Electronic Commerce Research and Applications",
+      "year": 2017,
+      "type": "journal",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-zarrinkalam-event-identification-in-social-net",
+      "title": "Event identification in social networks",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "year": 2017,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-nguyen-learning-event-count-models-with-a",
+      "title": "Learning event count models with application to affiliation ranking",
+      "authors": [
+        "Nguyen, Tam T.",
+        "Bagheri, Ebrahim",
+        "Lee, Jeong-Yoon",
+        "Li, Hang",
+        "Bay, Mert",
+        "Chen, Song"
+      ],
+      "venue": "Conference of the Centre for Advanced Studies on Collaborative Research",
+      "year": 2017,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-nguyen-location",
+      "title": "Location-Aware Human Activity Recognition",
+      "authors": [
+        "Nguyen, Tam T.",
+        "Fernandez, Daniel",
+        "Nguyen, Quy T. K.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Advanced Data Mining and Applications",
+      "year": 2017,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-vo-matrix-models-with-feature-enrichm",
+      "title": "Matrix Models with Feature Enrichment for Relation Extraction",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Canadian Conference on Artificial Intelligence",
+      "year": 2017,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-feng-methods-and-resources-for-computin",
+      "title": "Methods and resources for computing semantic relatedness",
+      "authors": [
+        "Feng, Yue",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-ensan-mining-actionable-insights-from-so",
+      "title": "Mining Actionable Insights from Social Networks at WSDM 2017",
+      "authors": [
+        "Ensan, Faezeh",
+        "Noorian, Zeinab",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM International Conference on Web Search and Data Mining",
+      "year": 2017,
+      "type": "workshop",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "WSDM 2017"
+    },
+    {
+      "id": "2017-pourmasoumi-mining-variable-fragments-from-pro",
+      "title": "Mining variable fragments from process event logs",
+      "authors": [
+        "Pourmasoumi, Asef",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information Systems Frontiers",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-vo-open-information-extraction",
+      "title": "Open information extraction",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Encyclopedia of Semantic Computing and Robotic Intelligence",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-zarrinkalam-predicting-users-future-interests-",
+      "title": "Predicting Users' Future Interests on Twitter",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim",
+        "Kahani, Mohsen"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2017,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2017"
+    },
+    {
+      "id": "2017-cuzzola-rysannmd",
+      "title": "RysannMD: A biomedical semantic annotator balancing speed and accuracy",
+      "authors": [
+        "Cuzzola, John",
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Journal of Biomedical Informatics",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-bashari-self",
+      "title": "Self-healing in Service Mashups Through Feature Adaptation",
+      "authors": [
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "International Systems and Software Product Line Conference",
+      "year": 2017,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SPLC 2017"
+    },
+    {
+      "id": "2017-jovanovic-semantic-annotation-in-biomedicine",
+      "title": "Semantic annotation in biomedicine: the current landscape",
+      "authors": [
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Journal of Biomedical Semantics",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-fani-temporally-like",
+      "title": "Temporally Like-minded User Community Identification through Neural Embeddings",
+      "authors": [
+        "Fani, Hossein",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "ACM International Conference on Information and Knowledge Management",
+      "year": 2017,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CIKM 2017"
+    },
+    {
+      "id": "2017-feng-the-state-of-the-art-in-semantic-r",
+      "title": "The state of the art in semantic relatedness: a framework for comparison",
+      "authors": [
+        "Feng, Yue",
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh",
+        "Jovanovic, Jelena"
+      ],
+      "venue": "Knowledge Engineering Review",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2017-noorian-toward-automated-quality",
+      "title": "Toward automated quality-centric product line configuration using intentional variability",
+      "authors": [
+        "Noorian, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "Journal of Software: Evolution and Process",
+      "year": 2017,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2016-bashari-automated-composition-of-service-m",
+      "title": "Automated Composition of Service Mashups Through Software Product Line Engineering",
+      "authors": [
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "International Conference on Software Reuse",
+      "year": 2016,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2016-jovanovic-electronic-commerce-meets-the-sema",
+      "title": "Electronic Commerce Meets the Semantic Web",
+      "authors": [
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IT Professional",
+      "year": 2016,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2016-bagheri-foreword-to-the-special-issue-on-e",
+      "title": "Foreword to the special issue on empirical evidence on software product line engineering",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Benavides, David",
+        "Schmid, Klaus",
+        "Runeson, Per"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2016,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2016-zarrinkalam-inferring-implicit-topical-interes",
+      "title": "Inferring Implicit Topical Interests on Twitter",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim",
+        "Kahani, Mohsen"
+      ],
+      "venue": "European Conference on Information Retrieval",
+      "year": 2016,
+      "type": "conference",
+      "themes": [
+        "neural-ranking",
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "ECIR 2016"
+    },
+    {
+      "id": "2016-noorian-quality",
+      "title": "Quality-centric feature model configuration using goal models",
+      "authors": [
+        "Noorian, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "ACM Symposium on Applied Computing",
+      "year": 2016,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2016-ghashghaei-semantic-disambiguation-and-linkin",
+      "title": "Semantic Disambiguation and Linking of Quantitative Mentions in Textual Content",
+      "authors": [
+        "Ghashghaei, Mehrnaz",
+        "Bagheri, Ebrahim",
+        "Cuzzola, John",
+        "Ghorbani, Ali A.",
+        "Noorian, Zeinab"
+      ],
+      "venue": "International Journal of Semantic Computing",
+      "year": 2016,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2016-bagheri-semantic-tagging-and-linking-of-so",
+      "title": "Semantic tagging and linking of software engineering social content",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh"
+      ],
+      "venue": "Automated Software Engineering",
+      "year": 2016,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2016-fani-time",
+      "title": "Time-Sensitive Topic-Based Communities on Twitter",
+      "authors": [
+        "Fani, Hossein",
+        "Zarrinkalam, Fattane",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "Canadian Conference on Artificial Intelligence",
+      "year": 2016,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-rizvi-a-systematic-review-of-distributed",
+      "title": "A systematic review of distributed Agile software engineering",
+      "authors": [
+        "Rizvi, Buturab",
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan"
+      ],
+      "venue": "Journal of Software: Evolution and Process",
+      "year": 2015,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-fani-an-ontology-for-describing-securit",
+      "title": "An Ontology for Describing Security Events",
+      "authors": [
+        "Fani, Hossein",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Software Engineering and Knowledge Engineering",
+      "year": 2015,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SEKE 2015"
+    },
+    {
+      "id": "2015-cuzzola-automated-classification-and-local",
+      "title": "Automated classification and localization of daily deal content from the Web",
+      "authors": [
+        "Cuzzola, John",
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan"
+      ],
+      "venue": "Applied Soft Computing",
+      "year": 2015,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-cuzzola-evolutionary-fine",
+      "title": "Evolutionary fine-tuning of automated semantic annotation systems",
+      "authors": [
+        "Cuzzola, John",
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan"
+      ],
+      "venue": "Expert Systems with Applications",
+      "year": 2015,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-cuzzola-filtering-inaccurate-entity-co",
+      "title": "Filtering Inaccurate Entity Co-references on the Linked Open Data",
+      "authors": [
+        "Cuzzola, John",
+        "Bagheri, Ebrahim",
+        "Jovanovic, Jelena"
+      ],
+      "venue": "International Conference on Database and Expert Systems Applications",
+      "year": 2015,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-feng-lexical-semantic-relatedness-for-t",
+      "title": "Lexical Semantic Relatedness for Twitter Analytics",
+      "authors": [
+        "Feng, Yue",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim",
+        "Jovanovic, Jelena"
+      ],
+      "venue": "IEEE International Conference on Tools with Artificial Intelligence",
+      "year": 2015,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-pourmasoumi-on-business-process-variants-gener",
+      "title": "On Business Process Variants Generation",
+      "authors": [
+        "Pourmasoumi, Asef",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim",
+        "Asadi, Mohsen"
+      ],
+      "venue": "CAiSE Forum",
+      "year": 2015,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CAiSE 2015"
+    },
+    {
+      "id": "2015-pourmasoumi-process-fragmentation",
+      "title": "Process Fragmentation: An Ontological Perspective",
+      "authors": [
+        "Pourmasoumi, Asef",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim",
+        "Asadi, Mohsen"
+      ],
+      "venue": "Exploring Modelling Methods for Systems Analysis and Design",
+      "year": 2015,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-behkamal-quality-metrics-for-linked-open-da",
+      "title": "Quality Metrics for Linked Open Data",
+      "authors": [
+        "Behkamal, Behshid",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Database and Expert Systems Applications",
+      "year": 2015,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-ghashghaei-semantic-annotation-of-quantitativ",
+      "title": "Semantic Annotation of Quantitative Textual Content",
+      "authors": [
+        "Ghashghaei, Mehrnaz",
+        "Cuzzola, John",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Linked Data for Information Extraction Workshop at ISWC",
+      "year": 2015,
+      "type": "workshop",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-zarrinkalam-semantics",
+      "title": "Semantics-Enabled User Interest Detection from Twitter",
+      "authors": [
+        "Zarrinkalam, Fattane",
+        "Fani, Hossein",
+        "Bagheri, Ebrahim",
+        "Kahani, Mohsen",
+        "Du, Weichang"
+      ],
+      "venue": "IEEE/WIC/ACM International Conference on Web Intelligence",
+      "year": 2015,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2015-vo-syntactic-and-semantic-structures-",
+      "title": "Syntactic and Semantic Structures for Relation Extraction",
+      "authors": [
+        "Vo, Duc-Thuan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Symposium on Future Directions in Information Access",
+      "year": 2015,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-behkamal-a-metrics",
+      "title": "A Metrics-Driven Approach for Quality Assessment of Linked Open Data",
+      "authors": [
+        "Behkamal, Behshid",
+        "Kahani, Mohsen",
+        "Bagheri, Ebrahim",
+        "Jeremic, Zoran"
+      ],
+      "venue": "Journal of Theoretical and Applied Electronic Commerce Research",
+      "year": 2014,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-noorian-addressing-non",
+      "title": "Addressing Non-Functional Properties in Feature Models: A Goal-Oriented Approach",
+      "authors": [
+        "Noorian, Mehdi",
+        "Asadi, Mohsen",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "International Journal of Software Engineering and Knowledge Engineering",
+      "year": 2014,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-jovanovic-automated-semantic-tagging-of-text",
+      "title": "Automated Semantic Tagging of Textual Content",
+      "authors": [
+        "Jovanovic, Jelena",
+        "Bagheri, Ebrahim",
+        "Cuzzola, John",
+        "Gasevic, Dragan",
+        "Jeremic, Zoran",
+        "Bashash, Reza"
+      ],
+      "venue": "IT Professional",
+      "year": 2014,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-noorian-capturing-non",
+      "title": "Capturing non-functional properties through model interlinking",
+      "authors": [
+        "Noorian, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "IEEE Canadian Conference on Electrical and Computer Engineering",
+      "year": 2014,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-cuzzola-derive",
+      "title": "Derive: finding semantic concepts with property-values from natural language text",
+      "authors": [
+        "Cuzzola, John",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Conference of the Centre for Advanced Studies on Collaborative Research",
+      "year": 2014,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-bagheri-dynamic-decision-models-for-staged",
+      "title": "Dynamic decision models for staged software product line configuration",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh"
+      ],
+      "venue": "Requirements Engineering",
+      "year": 2014,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-noorian-from-intentions-to-decisions",
+      "title": "From Intentions to Decisions: Understanding Stakeholders' Objectives in Software Product Line Configuration",
+      "authors": [
+        "Noorian, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "International Conference on Software Engineering and Knowledge Engineering",
+      "year": 2014,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SEKE 2014"
+    },
+    {
+      "id": "2014-bashari-product-line-stakeholder-preferenc",
+      "title": "Product Line Stakeholder Preference Elicitation via Decision Processes",
+      "authors": [
+        "Bashari, Mahdi",
+        "Noorian, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Journal of Knowledge and Systems Science",
+      "year": 2014,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2014-asadi-toward-automated-feature-model-con",
+      "title": "Toward automated feature model configuration with optimizing non-functional requirements",
+      "authors": [
+        "Asadi, Mohsen",
+        "Soltani, Samaneh",
+        "Gasevic, Dragan",
+        "Hatala, Marek",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2014,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2013-ognjanovic-a-stratified-framework-for-handlin",
+      "title": "A stratified framework for handling conditional preferences: An extension of the analytic hierarchy process",
+      "authors": [
+        "Ognjanovic, Ivana",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Expert Systems with Applications",
+      "year": 2013,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2013-bashari-engineering-self",
+      "title": "Engineering self-adaptive systems and dynamic software product line",
+      "authors": [
+        "Bashari, Mahdi",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Software Product Line Conference",
+      "year": 2013,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SPLC 2013"
+    },
+    {
+      "id": "2013-bagheri-forward-to-the-special-issue-on-vo",
+      "title": "Forward to the special issue on vocabularies, ontologies and rules for the enterprise",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Freitas, Fred",
+        "Bonino da Silva Santos, Luiz Olavo"
+      ],
+      "venue": "Information Systems",
+      "year": 2013,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2013-zouaq-message-from-vorte-2013-workshop-c",
+      "title": "Message from VORTE 2013 Workshop Chairs",
+      "authors": [
+        "Zouaq, Amal",
+        "Bagheri, Ebrahim",
+        "Guizzardi, Renata S. S."
+      ],
+      "venue": "IEEE International Enterprise Distributed Object Computing Conference Workshops",
+      "year": 2013,
+      "type": "workshop",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2013-cuzzola-product-centric-web-page-segmentat",
+      "title": "Product Centric Web Page Segmentation and Localization",
+      "authors": [
+        "Cuzzola, John",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Canadian Semantic Web Symposium",
+      "year": 2013,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2013-cuzzola-semantic-tagging-with-linked-open-",
+      "title": "Semantic Tagging with Linked Open Data",
+      "authors": [
+        "Cuzzola, John",
+        "Jeremic, Zoran",
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan",
+        "Jovanovic, Jelena",
+        "Bashash, Reza"
+      ],
+      "venue": "Canadian Semantic Web Symposium",
+      "year": 2013,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2013-cuzzola-what-s-the-deal-identifying-online",
+      "title": "What's the Deal? Identifying Online Bargains",
+      "authors": [
+        "Cuzzola, John",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Australasian Web Conference",
+      "year": 2013,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2012-ognjanovic-a-metaheuristic-approach-for-the-c",
+      "title": "A Metaheuristic Approach for the Configuration of Business Process Families",
+      "authors": [
+        "Ognjanovic, Ivana",
+        "Mohabbati, Bardia",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim",
+        "Boskovic, Marko"
+      ],
+      "venue": "IEEE International Conference on Services Computing",
+      "year": 2012,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2012-soltani-automated-planning-for-feature-mod",
+      "title": "Automated planning for feature model configuration based on functional and non-functional requirements",
+      "authors": [
+        "Soltani, Samaneh",
+        "Asadi, Mohsen",
+        "Gasevic, Dragan",
+        "Hatala, Marek",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Software Product Line Conference",
+      "year": 2012,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SPLC 2012"
+    },
+    {
+      "id": "2012-bagheri-decision-support-for-the-software-",
+      "title": "Decision support for the software product line domain engineering lifecycle",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh",
+        "Gasevic, Dragan"
+      ],
+      "venue": "Automated Software Engineering",
+      "year": 2012,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2012-asadi-developing-semantically",
+      "title": "Developing Semantically-Enabled Families of Method-Oriented Architectures",
+      "authors": [
+        "Asadi, Mohsen",
+        "Mohabbati, Bardia",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim",
+        "Hatala, Marek"
+      ],
+      "venue": "International Journal of Information System Modeling and Design",
+      "year": 2012,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2012-ensan-evolutionary-search",
+      "title": "Evolutionary Search-Based Test Generation for Software Product Line Feature Models",
+      "authors": [
+        "Ensan, Faezeh",
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan"
+      ],
+      "venue": "International Conference on Advanced Information Systems Engineering",
+      "year": 2012,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "CAiSE 2012"
+    },
+    {
+      "id": "2012-bagheri-foreword-to-the-special-issue-on-q",
+      "title": "Foreword to the special issue on quality engineering for software product lines",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan"
+      ],
+      "venue": "Software Quality Journal",
+      "year": 2012,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2012-bagheri-formalizing-interactive-staged-fea",
+      "title": "Formalizing interactive staged feature model configuration",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Di Noia, Tommaso",
+        "Gasevic, Dragan",
+        "Ragone, Azzurra"
+      ],
+      "venue": "Journal of Software: Evolution and Process",
+      "year": 2012,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2012-bagheri-guest-editorial-foreword-to-the-sp",
+      "title": "Guest Editorial Foreword to the Special Issue on Semantics-Enabled Software Engineering",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan",
+        "Pan, Jeff Z."
+      ],
+      "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part C",
+      "year": 2012,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2012-noorian-non",
+      "title": "Non-functional Properties in Software Product Lines: A Taxonomy for Classification",
+      "authors": [
+        "Noorian, Mahdi",
+        "Bagheri, Ebrahim",
+        "Du, Weichang"
+      ],
+      "venue": "International Conference on Software Engineering and Knowledge Engineering",
+      "year": 2012,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SEKE 2012"
+    },
+    {
+      "id": "2012-asadi-requirements-engineering-in-featur",
+      "title": "Requirements engineering in feature oriented software product lines: an initial analytical study",
+      "authors": [
+        "Asadi, Mohsen",
+        "Bagheri, Ebrahim",
+        "Mohabbati, Bardia",
+        "Gasevic, Dragan"
+      ],
+      "venue": "International Software Product Line Conference",
+      "year": 2012,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SPLC 2012"
+    },
+    {
+      "id": "2011-mohabbati-a-quality-aggregation-model-for-se",
+      "title": "A Quality Aggregation Model for Service-Oriented Software Product Lines Based on Variability and Composition Patterns",
+      "authors": [
+        "Mohabbati, Bardia",
+        "Gasevic, Dragan",
+        "Hatala, Marek",
+        "Asadi, Mohsen",
+        "Bagheri, Ebrahim",
+        "Boskovic, Marko"
+      ],
+      "venue": "International Conference on Service-Oriented Computing",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-bagheri-assessing-the-maintainability-of-s",
+      "title": "Assessing the maintainability of software product line feature models using structural metrics",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan"
+      ],
+      "venue": "Software Quality Journal",
+      "year": 2011,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-soltani-automated-planning-for-feature-mod",
+      "title": "Automated planning for feature model configuration based on stakeholders' business concerns",
+      "authors": [
+        "Soltani, Samaneh",
+        "Asadi, Mohsen",
+        "Hatala, Marek",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IEEE/ACM International Conference on Automated Software Engineering",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-ognjanovic-conditional-preferences-in-softwar",
+      "title": "Conditional preferences in software stakeholders' judgments",
+      "authors": [
+        "Ognjanovic, Ivana",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim",
+        "Asadi, Mohsen"
+      ],
+      "venue": "ACM Symposium on Applied Computing",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-bagheri-consolidating-multiple-requirement",
+      "title": "Consolidating multiple requirement specifications through argumentation",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh"
+      ],
+      "venue": "ACM Symposium on Applied Computing",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-asadi-developing-families-of-method",
+      "title": "Developing Families of Method-Oriented Architecture",
+      "authors": [
+        "Asadi, Mohsen",
+        "Mohabbati, Bardia",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IFIP WG 8.1 Working Conference on Method Engineering",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-boskovic-developing-families-of-software-se",
+      "title": "Developing Families of Software Services: A Semantic Web Approach",
+      "authors": [
+        "Boskovic, Marko",
+        "Gasevic, Dragan",
+        "Mohabbati, Bardia",
+        "Asadi, Mohsen",
+        "Hatala, Marek",
+        "Kaviani, Nima",
+        "Rusk, J. Jeffrey",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "Journal of Research and Practice in Information Technology",
+      "year": 2011,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-cuzzola-fault-detection-through-sequential",
+      "title": "Fault Detection through Sequential Filtering of Novelty Patterns",
+      "authors": [
+        "Cuzzola, John",
+        "Gasevic, Dragan",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Conference on Machine Learning and Applications",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-asadi-goal",
+      "title": "Goal-driven software product line engineering",
+      "authors": [
+        "Asadi, Mohsen",
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan",
+        "Hatala, Marek",
+        "Mohabbati, Bardia"
+      ],
+      "venue": "ACM Symposium on Applied Computing",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-ensan-goal",
+      "title": "Goal-Oriented Test Case Selection and Prioritization for Product Line Feature Models",
+      "authors": [
+        "Ensan, Alireza",
+        "Bagheri, Ebrahim",
+        "Asadi, Mohsen",
+        "Gasevic, Dragan",
+        "Biletskiy, Yevgen"
+      ],
+      "venue": "International Conference on Information Technology: New Generations",
+      "year": 2011,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2011-bagheri-modular-feature-models",
+      "title": "Modular Feature Models: Representation and Configuration",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh",
+        "Gasevic, Dragan",
+        "Boskovic, Marko"
+      ],
+      "venue": "Journal of Research and Practice in Information Technology",
+      "year": 2011,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-ensan-a-framework-for-handling-revisions",
+      "title": "A framework for handling revisions in distributed ontologies",
+      "authors": [
+        "Ensan, Faezeh",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM Symposium on Applied Computing",
+      "year": 2010,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-bagheri-a-model-for-the-integration-of-pri",
+      "title": "A Model for the Integration of Prioritized Knowledge Bases Through Subjective Belief Games",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part A",
+      "year": 2010,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-bagheri-an-exploratory-classification-of-a",
+      "title": "An exploratory classification of applications in the realm of collaborative modeling and design",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Information Systems and e-Business Management",
+      "year": 2010,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-boskovic-aspect",
+      "title": "Aspect-Oriented Feature Models",
+      "authors": [
+        "Boskovic, Marko",
+        "Mussbacher, Gunter",
+        "Bagheri, Ebrahim",
+        "Amyot, Daniel",
+        "Gasevic, Dragan",
+        "Hatala, Marek"
+      ],
+      "venue": "MoDELS Workshops",
+      "year": 2010,
+      "type": "workshop",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-boskovic-automated-staged-configuration-wit",
+      "title": "Automated Staged Configuration with Semantic Web Technologies",
+      "authors": [
+        "Boskovic, Marko",
+        "Bagheri, Ebrahim",
+        "Gasevic, Dragan",
+        "Mohabbati, Bardia",
+        "Kaviani, Nima",
+        "Hatala, Marek"
+      ],
+      "venue": "International Journal of Software Engineering and Knowledge Engineering",
+      "year": 2010,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-tavallaee-automatic-discovery-of-network-app",
+      "title": "Automatic Discovery of Network Applications: A Hybrid Approach",
+      "authors": [
+        "Tavallaee, Mahbod",
+        "Lu, Wei",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Canadian Conference on Artificial Intelligence",
+      "year": 2010,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-bagheri-configuring-software-product-line-",
+      "title": "Configuring Software Product Line Feature Models Based on Stakeholders' Soft and Hard Requirements",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Di Noia, Tommaso",
+        "Ragone, Azzurra",
+        "Gasevic, Dragan"
+      ],
+      "venue": "International Software Product Line Conference",
+      "year": 2010,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SPLC 2010"
+    },
+    {
+      "id": "2010-bagheri-evidential-reasoning-for-the-treat",
+      "title": "Evidential reasoning for the treatment of incoherent terminologies",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ensan, Faezeh"
+      ],
+      "venue": "ACM Symposium on Applied Computing",
+      "year": 2010,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-bagheri-stratified-analytic-hierarchy-proc",
+      "title": "Stratified Analytic Hierarchy Process: Prioritization and Selection of Software Features",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Asadi, Mohsen",
+        "Gasevic, Dragan",
+        "Soltani, Samaneh"
+      ],
+      "venue": "International Software Product Line Conference",
+      "year": 2010,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true,
+      "venueShort": "SPLC 2010"
+    },
+    {
+      "id": "2010-bagheri-the-analysis-and-management-of-non",
+      "title": "The analysis and management of non-canonical requirement specifications through a belief integration game",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Knowledge and Information Systems",
+      "year": 2010,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2010-bagheri-uml",
+      "title": "UML-CI: A reference model for profiling critical infrastructure systems",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Information Systems Frontiers",
+      "year": 2010,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2009-bagheri-a-belief",
+      "title": "A belief-theoretic framework for the collaborative development and integration of para-consistent conceptual models",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2009,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2009-tavallaee-a-detailed-analysis-of-the-kdd-cup",
+      "title": "A detailed analysis of the KDD CUP 99 data set",
+      "authors": [
+        "Tavallaee, Mahbod",
+        "Bagheri, Ebrahim",
+        "Lu, Wei",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "IEEE Symposium on Computational Intelligence for Security and Defense Applications",
+      "year": 2009,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2009-jashki-an-iterative-hybrid-filter",
+      "title": "An Iterative Hybrid Filter-Wrapper Approach to Feature Selection for Document Clustering",
+      "authors": [
+        "Jashki, Mohammad-Amin",
+        "Makki, Majid",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Canadian Conference on Artificial Intelligence",
+      "year": 2009,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2009-bagheri-astrolabe",
+      "title": "Astrolabe: A Collaborative Multiperspective Goal-Oriented Risk Analysis Methodology",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part A",
+      "year": 2009,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2009-bagheri-can-reputation-migrate-on-the-prop",
+      "title": "Can reputation migrate? On the propagation of reputation in multi-context communities",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Zafarani, Reza",
+        "Barouni-Ebrahimi, M."
+      ],
+      "venue": "Knowledge-Based Systems",
+      "year": 2009,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-bagheri-a-belief",
+      "title": "A Belief-Theoretic Reputation Estimation Model for Multi-context Communities",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Barouni-Ebrahimi, M.",
+        "Zafarani, Reza",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Canadian Conference on Artificial Intelligence",
+      "year": 2008,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-barouni-ebrahimi-a-frequency-mining",
+      "title": "A Frequency Mining-Based Algorithm for Re-ranking Web Search Engine Retrievals",
+      "authors": [
+        "Barouni-Ebrahimi, M.",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Canadian Conference on Artificial Intelligence",
+      "year": 2008,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-makki-automating-architecture-trade",
+      "title": "Automating Architecture Trade-Off Decision Making through a Complex Multi-attribute Decision Process",
+      "authors": [
+        "Makki, Majid",
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "European Conference on Software Architecture",
+      "year": 2008,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-bagheri-experiences-on-the-belief",
+      "title": "Experiences on the Belief-Theoretic Integration of Para-consistent Conceptual Models",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Australian Software Engineering Conference",
+      "year": 2008,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-bagheri-on-the-definition-of-essential-and",
+      "title": "On the Definition of Essential and Contingent Properties of Subjective Belief Bases",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Mexican International Conference on Artificial Intelligence",
+      "year": 2008,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-ghorbani-the-state-of-the-art-in-critical-i",
+      "title": "The state of the art in critical infrastructure protection: a framework for convergence",
+      "authors": [
+        "Ghorbani, Ali A.",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "International Journal of Critical Infrastructures",
+      "year": 2008,
+      "type": "journal",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-bagheri-towards-a-belief",
+      "title": "Towards a Belief-Theoretic Model for Collaborative Conceptual Model Development",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Hawaii International Conference on System Sciences",
+      "year": 2008,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2008-jashki-towards-a-more-efficient-static-so",
+      "title": "Towards a more efficient static software change impact analysis method",
+      "authors": [
+        "Jashki, Mohammad-Amin",
+        "Zafarani, Reza",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+      "year": 2008,
+      "type": "workshop",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2007-bagheri-a-framework-for-distributed-collab",
+      "title": "A framework for distributed collaborative conceptual model development",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "OOPSLA Companion",
+      "year": 2007,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2007-bagheri-a-proposal-for-taming-uncertainty-",
+      "title": "A proposal for taming uncertainty in the collaborative conceptual model development process",
+      "authors": [
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "OOPSLA Companion",
+      "year": 2007,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2007-bagheri-an-agent",
+      "title": "An agent-based service-oriented simulation suite for critical infrastructure behaviour analysis",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Baghi, Hamidreza",
+        "Ghorbani, Ali A.",
+        "Yari, Alireza"
+      ],
+      "venue": "International Journal of Business Process Integration and Management",
+      "year": 2007,
+      "type": "journal",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2007-bagheri-on-the-collaborative-development-o",
+      "title": "On the Collaborative Development of Para-Consistent Conceptual Models",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "International Conference on Quality Software",
+      "year": 2007,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2007-bagheri-risk-analysis-in-critical-infrastr",
+      "title": "Risk Analysis in Critical Infrastructure Systems based on the Astrolabe Methodology",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "Communication Networks and Services Research Conference",
+      "year": 2007,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2007-ensan-the-application-of-users-collectiv",
+      "title": "The Application of Users' Collective Experience for Crafting Suitable Search Engine Query Recommendations",
+      "authors": [
+        "Ensan, Faezeh",
+        "Bagheri, Ebrahim",
+        "Kahani, Mohsen"
+      ],
+      "venue": "Communication Networks and Services Research Conference",
+      "year": 2007,
+      "type": "conference",
+      "themes": [
+        "neural-ranking"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2006-bagheri-behavior-analysis-through-reputati",
+      "title": "Behavior analysis through reputation propagation in a multi-context environment",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "International Conference on Privacy, Security and Trust",
+      "year": 2006,
+      "type": "conference",
+      "themes": [
+        "information-people-society"
+      ],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2006-bagheri-dejong-function-optimization-by-me",
+      "title": "Dejong Function Optimization by Means of a Parallel Approach to Fuzzified Genetic Algorithm",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Deldari, Hossein"
+      ],
+      "venue": "IEEE Symposium on Computers and Communications",
+      "year": 2006,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2006-ensan-fact",
+      "title": "FACT: A New Fuzzy Adaptive Clustering Technique",
+      "authors": [
+        "Ensan, Faezeh",
+        "Yaghmaee, Mohammad Hossien",
+        "Bagheri, Ebrahim"
+      ],
+      "venue": "IEEE Symposium on Computers and Communications",
+      "year": 2006,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2006-bagheri-towards-an-mda",
+      "title": "Towards an MDA-oriented UML profile for critical infrastructure modeling",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Ghorbani, Ali A."
+      ],
+      "venue": "International Conference on Privacy, Security and Trust",
+      "year": 2006,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    },
+    {
+      "id": "2005-bagheri-a-novel-resource-dissemination-and",
+      "title": "A Novel Resource Dissemination and Discovery Model for Pervasive Environments Using Mobile Agents",
+      "authors": [
+        "Bagheri, Ebrahim",
+        "Naghibzadeh, Mahmood",
+        "Kahani, Mohsen"
+      ],
+      "venue": "International Conference on High Performance Computing and Communications",
+      "year": 2005,
+      "type": "conference",
+      "themes": [],
+      "links": {},
+      "needsReview": true
+    }
+  ]
+}
