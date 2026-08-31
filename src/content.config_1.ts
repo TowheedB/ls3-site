@@ -1,6 +1,5 @@
 import { defineCollection } from 'astro:content';
 import { z } from 'astro:schema';
-import type { ZodRawShape, ZodTypeAny } from 'zod';
 import { glob, file } from 'astro/loaders';
 
 /** The single taxonomy. Publications, people and projects all tag into it. */
@@ -13,6 +12,15 @@ export const THEMES = [
 ] as const;
 
 const themeEnum = z.enum(THEMES);
+
+/*
+ * Derived from `z` itself rather than imported from 'zod'. The zod package is
+ * not a declared dependency — it resolves only because Astro happens to pull
+ * it in — so importing from it directly would break on any install that
+ * hoisted things differently.
+ */
+type AnySchema = Parameters<typeof z.array>[0];
+type Shape = Parameters<typeof z.object>[0];
 
 /* ---------------------------------------------------------------------------
  * Tolerant field types
@@ -73,11 +81,11 @@ const boolOr = (fallback: boolean) =>
   z.preprocess((v) => (v === null || v === undefined ? fallback : v), z.boolean());
 
 /** List that tolerates `null` and treats it as empty. */
-const listOf = <T extends ZodTypeAny>(item: T) =>
+const listOf = <T extends AnySchema>(item: T) =>
   z.preprocess((v) => (v === null || v === undefined ? [] : v), z.array(item));
 
 /** Object of optional links, tolerating a `null` object as well as null members. */
-const linksOf = <S extends ZodRawShape>(shape: S) =>
+const linksOf = <S extends Shape>(shape: S) =>
   z.preprocess((v) => (v === null || v === undefined ? {} : v), z.object(shape).partial());
 
 /* ------------------------------------------------------------------------- */

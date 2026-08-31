@@ -1,6 +1,9 @@
 {
   "name": "ls3-site",
   "type": "module",
+  "engines": {
+    "node": ">=20.11.0"
+  },
   "version": "1.0.0",
   "private": true,
   "scripts": {
