@@ -22,7 +22,6 @@ const groups = ROLE_ORDER
   }))
   .filter((g) => g.people.length > 0);
 
-const placed = alumni.filter((p) => p.data.nowAt).length;
 ---
 
 <BaseLayout
@@ -70,11 +69,6 @@ const placed = alumni.filter((p) => p.data.nowAt).length;
       </section>
     ))}
 
-    <p class="note num">
-      {placed} of {alumni.length} entries record a current position. Roles and years come
-      from the lab's own records; where someone held more than one role, the most senior is
-      shown.
-    </p>
   </div>
 </BaseLayout>
 
@@ -108,11 +102,4 @@ const placed = alumni.filter((p) => p.data.nowAt).length;
   .now { font-size: var(--t-small); color: var(--ink-2); }
   .now.unk { color: var(--ink-3); font-family: var(--f-mono); }
 
-  .note {
-    margin-top: var(--s-4);
-    font-family: var(--f-mono);
-    font-size: var(--t-meta);
-    color: var(--ink-3);
-    max-width: var(--measure);
-  }
 </style>
