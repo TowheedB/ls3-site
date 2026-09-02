@@ -10,9 +10,15 @@ const groups = ROLE_ORDER
   .map((role) => ({
     role,
     label: ROLE_LABEL[role],
+    // Reverse chronological: most recently departed first. Falls back to the
+    // start year for entries with no end year, then to the name so the order
+    // is stable rather than incidental.
     people: alumni
       .filter((p) => p.data.role === role)
-      .sort((a, b) => a.data.name.localeCompare(b.data.name)),
+      .sort((a, b) =>
+        (b.data.gradYear ?? b.data.startYear ?? 0) - (a.data.gradYear ?? a.data.startYear ?? 0) ||
+        (b.data.startYear ?? 0) - (a.data.startYear ?? 0) ||
+        a.data.name.localeCompare(b.data.name)),
   }))
   .filter((g) => g.people.length > 0);
 

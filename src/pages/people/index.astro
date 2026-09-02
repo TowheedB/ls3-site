@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PersonCard from '../../components/PersonCard.astro';
 import Avatar from '../../components/Avatar.astro';
 import { getCollection, render } from 'astro:content';
 import { ROLE_LABEL, ROLE_ORDER } from '../../lib/format';
@@ -13,8 +12,10 @@ const alumniCount = all.length - current.length;
 const director = current.find((p) => p.data.role === 'director');
 const DirectorBody: any = director ? (await render(director)).Content : null;
 
+// Affiliated faculty are no longer shown here. Their entries still exist in
+// src/content/people/ — delete 'faculty' from this filter to bring them back.
 const groups = ROLE_ORDER
-  .filter((r) => r !== 'director')
+  .filter((r) => r !== 'director' && r !== 'faculty')
   .map((role) => ({
     role,
     label: ROLE_LABEL[role],
@@ -22,13 +23,25 @@ const groups = ROLE_ORDER
       .filter((p) => p.data.role === role)
       .sort((a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name)),
   }))
-  .filter((g) => g.people.length > 0);
+  .filter((g) => g.people.length > 0)
+  // "PhD Student" under a heading that reads "PhD students" is noise. Work out
+  // each group's usual title and print it only for the people who differ —
+  // which is how the Mitacs and visiting titles still get shown.
+  .map((g) => {
+    const tally = new Map<string, number>();
+    for (const p of g.people) {
+      const t = p.data.title ?? '';
+      tally.set(t, (tally.get(t) ?? 0) + 1);
+    }
+    const usual = [...tally.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? '';
+    return { ...g, usual };
+  });
 
 ---
 
 <BaseLayout
   title="People"
-  description="The people of LS3 at the University of Toronto's Faculty of Information — director, affiliated faculty, researchers and students."
+  description="The people of LS3 at the University of Toronto's Faculty of Information — the director, researchers and students currently in the lab."
 >
   <div class="wrap">
     <header class="page-head">
@@ -65,22 +78,26 @@ const groups = ROLE_ORDER
           <h2>{g.label}</h2>
           <span class="more num">{g.people.length}</span>
         </div>
-        <div class="grid grid-2">
-          {g.people.map((p) => <PersonCard person={p} />)}
-        </div>
+        <ul class="rows">
+          {g.people.map((p) => (
+            <li>
+              <span class="nm">{p.data.name}</span>
+              <span class="yrs num">
+                {p.data.startYear
+                  ? (p.data.gradYear && p.data.gradYear !== p.data.startYear
+                      ? `${p.data.startYear}–${p.data.gradYear}`
+                      : `${p.data.startYear}–present`)
+                  : ''}
+              </span>
+              <span class="role">{p.data.title === g.usual ? '' : p.data.title}</span>
+            </li>
+          ))}
+        </ul>
       </section>
     ))}
 
     <section class="alum-cta">
-      <div>
-        <h2>Where our graduates go</h2>
-        <p>
-          Alumni of the lab hold faculty positions in Canada, Iran, Serbia and Brazil, and research
-          and engineering roles at Meta, Amazon, RBC, IBM, Sun Life, Deloitte and the Government of
-          Alberta.
-        </p>
-      </div>
-      <a class="btn btn-primary" href="/people/alumni/">See all {alumniCount} alumni</a>
+      <a class="btn btn-primary" href="/people/alumni/">See our Alumni</a>
     </section>
   </div>
 </BaseLayout>
@@ -107,16 +124,28 @@ const groups = ROLE_ORDER
 
   .group { margin-top: var(--s-5); }
 
+  /* Same row treatment as the alumni page, so the two read as one system. */
+  .rows { display: flex; flex-direction: column; }
+  .rows li {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+    padding: 11px 4px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .rows li:hover { background: var(--yellow-soft); }
+  @media (min-width: 720px) {
+    .rows li { grid-template-columns: 240px 92px minmax(0, 1fr); gap: var(--s-3); align-items: baseline; }
+  }
+  .nm { font-weight: 600; font-size: var(--t-small); }
+  .yrs { font-family: var(--f-mono); font-size: var(--t-meta); color: var(--ink-3); white-space: nowrap; }
+  .rows .role { font-size: var(--t-small); color: var(--ink-2); }
+
   .alum-cta {
     margin-top: var(--s-5);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: var(--s-3);
     border-top: 2px solid var(--ink);
-    padding-top: var(--s-3);
+    padding-top: var(--s-4);
+    display: flex;
+    justify-content: center;
   }
-  .alum-cta > div { flex: 1 1 380px; display: flex; flex-direction: column; gap: 8px; }
-  .alum-cta h2 { font-size: var(--t-h3); }
-  .alum-cta p { font-size: var(--t-small); color: var(--ink-2); max-width: 60ch; }
 </style>
