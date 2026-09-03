@@ -48,6 +48,7 @@ export const ROLE_ORDER = [
  * first, newest stage down, then the roles that are not a degree.
  */
 export const PEOPLE_GROUP_ORDER = [
+  'director',
   'postdoc',
   'phd',
   'msc',

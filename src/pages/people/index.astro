@@ -1,19 +1,15 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Avatar from '../../components/Avatar.astro';
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { ROLE_LABEL, PEOPLE_GROUP_ORDER } from '../../lib/format';
-import { photoFor } from '../../lib/lab';
 
 const all = await getCollection('people');
 const current = all.filter((p) => p.data.status === 'current');
 const alumniCount = all.length - current.length;
 
-const director = current.find((p) => p.data.role === 'director');
-const DirectorBody: any = director ? (await render(director)).Content : null;
-
-// Affiliated faculty are no longer shown here. Their entries still exist in
-// src/content/people/ — delete 'faculty' from this filter to bring them back.
+// PEOPLE_GROUP_ORDER omits 'faculty', so affiliated faculty do not appear
+// here. Their entries still exist in src/content/people/; adding the role
+// back to that list brings the section back.
 const groups = PEOPLE_GROUP_ORDER
   .map((role) => ({
     role,
@@ -22,19 +18,7 @@ const groups = PEOPLE_GROUP_ORDER
       .filter((p) => p.data.role === role)
       .sort((a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name)),
   }))
-  .filter((g) => g.people.length > 0)
-  // "PhD Student" under a heading that reads "PhD students" is noise. Work out
-  // each group's usual title and print it only for the people who differ —
-  // which is how the Mitacs and visiting titles still get shown.
-  .map((g) => {
-    const tally = new Map<string, number>();
-    for (const p of g.people) {
-      const t = p.data.title ?? '';
-      tally.set(t, (tally.get(t) ?? 0) + 1);
-    }
-    const usual = [...tally.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? '';
-    return { ...g, usual };
-  });
+  .filter((g) => g.people.length > 0);
 
 ---
 
@@ -53,24 +37,6 @@ const groups = PEOPLE_GROUP_ORDER
       </p>
     </header>
 
-    {director && (
-      <section class="director">
-        <Avatar name={director.data.name} photo={photoFor(director.id, director.data.photo)} size={148} />
-        <div class="dtxt">
-          <p class="eyebrow">Director</p>
-          <h2>{director.data.name}</h2>
-          <p class="dtitle">{director.data.title}</p>
-          <p class="daff">{director.data.affiliation}</p>
-          <div class="prose dbody"><DirectorBody /></div>
-          <p class="dlinks">
-            {director.data.email && <a href={`mailto:${director.data.email}`}>{director.data.email}</a>}
-            {director.data.links?.scholar && <a href={director.data.links.scholar} rel="noopener">Google Scholar</a>}
-            {director.data.links?.website && <a href={director.data.links.website} rel="noopener">Faculty profile</a>}
-          </p>
-        </div>
-      </section>
-    )}
-
     {groups.map((g) => (
       <section class="group">
         <div class="section-rule">
@@ -81,14 +47,15 @@ const groups = PEOPLE_GROUP_ORDER
           {g.people.map((p) => (
             <li>
               <span class="nm">{p.data.name}</span>
+              {/* No years against the director — the lab's start date and his
+                  are the same fact, and it reads oddly next to a single name. */}
               <span class="yrs num">
-                {p.data.startYear
+                {g.role !== 'director' && p.data.startYear
                   ? (p.data.gradYear && p.data.gradYear !== p.data.startYear
                       ? `${p.data.startYear}–${p.data.gradYear}`
                       : `${p.data.startYear}–present`)
                   : ''}
               </span>
-              <span class="role">{p.data.title === g.usual ? '' : p.data.title}</span>
             </li>
           ))}
         </ul>
@@ -102,24 +69,6 @@ const groups = PEOPLE_GROUP_ORDER
 </BaseLayout>
 
 <style>
-  .director {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--s-3);
-    padding: var(--s-3);
-    border: 1px solid var(--rule);
-    border-top: 4px solid var(--yellow);
-    border-radius: 0 0 var(--radius) var(--radius);
-    background: var(--surface);
-  }
-  .dtxt { flex: 1 1 340px; display: flex; flex-direction: column; gap: 5px; }
-  .dtxt h2 { font-size: var(--t-h2); }
-  .dtitle { font-size: 16px; font-weight: 600; color: var(--ink); }
-  .daff { font-size: var(--t-small); color: var(--ink-2); }
-  .dbody { margin-top: var(--s-1); font-size: var(--t-small); }
-  .dlinks { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-1); }
-  .dlinks a { font-family: var(--f-mono); font-size: 11.5px; }
-
 
   .group { margin-top: var(--s-5); }
 
@@ -134,11 +83,10 @@ const groups = PEOPLE_GROUP_ORDER
   }
   .rows li:hover { background: var(--yellow-soft); }
   @media (min-width: 720px) {
-    .rows li { grid-template-columns: 240px 92px minmax(0, 1fr); gap: var(--s-3); align-items: baseline; }
+    .rows li { grid-template-columns: 260px auto; justify-content: start; gap: var(--s-3); align-items: baseline; }
   }
   .nm { font-weight: 600; font-size: var(--t-small); }
   .yrs { font-family: var(--f-mono); font-size: var(--t-meta); color: var(--ink-3); white-space: nowrap; }
-  .rows .role { font-size: var(--t-small); color: var(--ink-2); }
 
   .alum-cta {
     margin-top: var(--s-5);
