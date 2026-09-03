@@ -27,7 +27,7 @@ export const ROLE_LABEL: Record<string, string> = {
   phd: 'PhD students',
   msc: 'MSc students',
   undergrad: 'Undergraduate researchers',
-  visitor: 'Visiting researchers',
+  visitor: 'Research interns',
 };
 
 /** Display order for role groupings on the People page. */
@@ -40,6 +40,20 @@ export const ROLE_ORDER = [
   'msc',
   'undergrad',
   'visitor',
+] as const;
+
+/**
+ * Order the People and Alumni pages group by. Distinct from ROLE_ORDER, which
+ * is the taxonomy's own ordering: this is a presentation choice — degrees
+ * first, newest stage down, then the roles that are not a degree.
+ */
+export const PEOPLE_GROUP_ORDER = [
+  'postdoc',
+  'phd',
+  'msc',
+  'undergrad',
+  'visitor',
+  'research-staff',
 ] as const;
 
 export const TYPE_LABEL: Record<string, string> = {

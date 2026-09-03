@@ -6,19 +6,19 @@
   "directorName": "Ebrahim Bagheri",
   "directorTitle": "Professor & PhD Program Director",
   "email": "ebrahim.bagheri@utoronto.ca",
+  "address": {
+    "line1": "Faculty of Information",
+    "line2": "University of Toronto",
+    "line3": "140 St. George Street",
+    "line4": "Toronto, Ontario M5S 3G6",
+    "country": "Canada",
+    "officeNote": "Prof. Bagheri's office is in the Faculty's second building at 481 Spadina Avenue, M5S 2G7, a seven-minute walk west. Check which one you need before setting out."
+  },
   "recruiting": {
     "active": true,
     "label": "Now recruiting",
     "text": "We are looking for PhD and MSc students, and postdoctoral researchers, to join the lab.",
     "buttonText": "How to apply"
-  },
-  "address": {
-    "line1": "Faculty of Information",
-    "line2": "University of Toronto",
-    "line3": "481 Spadina Avenue",
-    "line4": "Toronto, ON M5S 2G7",
-    "country": "Canada",
-    "officeNote": "Ebrahim's office is in the Faculty's second building at 481 Spadina Avenue, M5S 2G7, a seven-minute walk west. Check which one you need before setting out."
   },
   "links": {
     "facultyProfile": "https://ischool.utoronto.ca/faculty-profile/bagheri-ebrahim/",

@@ -1,20 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { ROLE_LABEL, ROLE_ORDER } from '../../lib/format';
+import { ROLE_LABEL, PEOPLE_GROUP_ORDER } from '../../lib/format';
 
 const all = await getCollection('people');
 const alumni = all.filter((p) => p.data.status === 'alumni');
 
-const groups = ROLE_ORDER
+// Research interns and technical staff share one heading here. Both are
+// short, non-degree stints, and split across two groups each looked thin.
+const MERGE: Record<string, string> = { visitor: 'research-staff' };
+const groupOf = (role: string) => MERGE[role] ?? role;
+
+const groups = PEOPLE_GROUP_ORDER
+  .filter((role) => groupOf(role) === role)
   .map((role) => ({
     role,
-    label: ROLE_LABEL[role],
+    label: role === 'research-staff' ? 'Research staff' : ROLE_LABEL[role],
     // Reverse chronological: most recently departed first. Falls back to the
     // start year for entries with no end year, then to the name so the order
     // is stable rather than incidental.
     people: alumni
-      .filter((p) => p.data.role === role)
+      .filter((p) => groupOf(p.data.role) === role)
       .sort((a, b) =>
         (b.data.gradYear ?? b.data.startYear ?? 0) - (a.data.gradYear ?? a.data.startYear ?? 0) ||
         (b.data.startYear ?? 0) - (a.data.startYear ?? 0) ||
@@ -26,7 +32,7 @@ const groups = ROLE_ORDER
 
 <BaseLayout
   title="Alumni"
-  description={`${alumni.length} researchers have passed through LS3 — postdocs, doctoral and master's students, and visiting researchers — and where they are now.`}
+  description={`${alumni.length} researchers have passed through LS3 — postdocs, doctoral and master's students, undergraduate researchers, interns and staff.`}
 >
   <div class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb">
@@ -39,9 +45,8 @@ const groups = ROLE_ORDER
       <p class="eyebrow">Alumni</p>
       <h1>{alumni.length} researchers have worked in this lab</h1>
       <p class="intro">
-        Postdoctoral fellows, doctoral and master's students, and visiting researchers, with
-        current positions where we know them. If you are on this list and your entry is out of
-        date, send us a correction — we would like to keep it right.
+        Postdoctoral fellows, doctoral and master's students, undergraduate researchers,
+        research interns and staff who have worked in the lab, with the years they were here.
       </p>
     </header>
 
@@ -60,9 +65,6 @@ const groups = ROLE_ORDER
                   ? `${p.data.startYear}–${p.data.gradYear}`
                   : p.data.startYear}
               </span>
-              {p.data.nowAt
-                ? <span class="now">{p.data.nowAt}</span>
-                : <span class="now unk">—</span>}
             </li>
           ))}
         </ul>
@@ -95,11 +97,9 @@ const groups = ROLE_ORDER
   }
   .rows li:hover { background: var(--yellow-soft); }
   @media (min-width: 720px) {
-    .rows li { grid-template-columns: 240px 92px minmax(0, 1fr); gap: var(--s-3); align-items: baseline; }
+    .rows li { grid-template-columns: minmax(0, 1fr) 100px; gap: var(--s-3); align-items: baseline; }
   }
   .nm { font-weight: 600; font-size: var(--t-small); }
   .yrs { font-family: var(--f-mono); font-size: var(--t-meta); color: var(--ink-3); white-space: nowrap; }
-  .now { font-size: var(--t-small); color: var(--ink-2); }
-  .now.unk { color: var(--ink-3); font-family: var(--f-mono); }
 
 </style>

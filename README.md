@@ -99,10 +99,18 @@ Conventions for AI-assisted sessions are in **CLAUDE.md**.
 ## Before this goes live
 
 - [ ] Replace the current-member roster (see the notice on `/people/`)
-- [ ] Review the imported publications — 236 of the 262 entries carry
-      `"needsReview": true`. They came from DBLP, so titles, authors and years are
-      reliable, but venue names are normalised by hand and theme tags were assigned
-      by keyword. Search the file for `needsReview` and clear the flag as you go.
+- [ ] Review the remaining publications — 106 of the 329 entries carry
+      `"needsReview": true`. The rest were confirmed against the lab's own BibTeX
+      export and their flags are cleared. What is left is either not in that export,
+      or is new from it and carries theme tags assigned by keyword rather than by a
+      person. Search the file for `needsReview` and clear the flag as you go.
+- [ ] **Optional: re-host the paper PDFs.** 178 `links.pdf` values point at
+      `ls3.rnet.torontomu.ca/wp-content/uploads/...`. TMU has confirmed that site is
+      staying up, so these work and there is no deadline. Worth doing eventually
+      anyway — a UofT lab serving its papers from a TMU server is an odd dependency
+      to carry, and it would go away if the media library were exported into
+      `public/uploads/` and the links rewritten to `/uploads/<file>.pdf`.
+      `grep -c torontomu src/data/publications.json` counts them.
 - [ ] Confirm affiliated-faculty titles and institutions in `src/content/people/`
 - [ ] Add headshots to `public/people/` — see below
 - [ ] Set the real domain in `astro.config.mjs` (`site`) and in `public/robots.txt`

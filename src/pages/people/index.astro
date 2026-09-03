@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Avatar from '../../components/Avatar.astro';
 import { getCollection, render } from 'astro:content';
-import { ROLE_LABEL, ROLE_ORDER } from '../../lib/format';
+import { ROLE_LABEL, PEOPLE_GROUP_ORDER } from '../../lib/format';
 import { photoFor } from '../../lib/lab';
 
 const all = await getCollection('people');
@@ -14,8 +14,7 @@ const DirectorBody: any = director ? (await render(director)).Content : null;
 
 // Affiliated faculty are no longer shown here. Their entries still exist in
 // src/content/people/ — delete 'faculty' from this filter to bring them back.
-const groups = ROLE_ORDER
-  .filter((r) => r !== 'director' && r !== 'faculty')
+const groups = PEOPLE_GROUP_ORDER
   .map((role) => ({
     role,
     label: ROLE_LABEL[role],

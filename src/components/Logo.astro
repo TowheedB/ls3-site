@@ -43,7 +43,7 @@ const logoDark = assetFor(`${base}-dark`) ?? assetFor('logo-dark');
 
   {!markOnly && (
     <span class="wordmark">
-      <b>Laboratory of</b>
+      <b>Laboratory for</b>
       <em>Systems, Software &amp; Semantics</em>
     </span>
   )}
@@ -65,18 +65,15 @@ const logoDark = assetFor(`${base}-dark`) ?? assetFor('logo-dark');
   :root[data-theme="light"] .logo-img.has-dark { display: block; }
   :root[data-theme="light"] .logo-img.only-dark { display: none; }
 
-  .wordmark { display: flex; flex-direction: column; line-height: 1.1; }
-  .wordmark b {
-    font-family: var(--f-display);
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    color: var(--ink);
-  }
+  .wordmark { display: flex; flex-direction: column; gap: 2px; line-height: 1.2; }
+  /* Both lines share one rule, so they are genuinely the same treatment —
+     no weight or colour splitting them into a name and a subtitle. */
+  .wordmark b,
   .wordmark em {
     font-family: var(--f-mono);
     font-style: normal;
     font-size: 9.5px;
+    font-weight: 400;
     letter-spacing: .11em;
     text-transform: uppercase;
     color: var(--ink-3);
